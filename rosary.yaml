@@ -1,0 +1,18 @@
+glorious:
+    first: [Resurection, faith]
+    second: [Ascension, hope]
+    third: ['Descent of the Holy Ghost upon the apostles and disciples', 'love of God']
+    fourth: [Assumption, 'grace of a happy death']
+    fifth: ['Coronation of Mary as Queen of heaven and earth', 'trust in Mary''s intercession']
+joyful:
+    first: [Annunciation, humility]
+    second: [Visitation, 'love of neighbor']
+    third: [Nativity, poverty]
+    fourth: [Presentation, obedience]
+    fifth: ['Finding of the child, Jesus, in the Temple', 'joy in finding Jesus']
+sorrowful:
+    first: ['Agony in the Garden', 'contrition (or sorrow) for sin']
+    second: ['Scourging at the Pillar', purity]
+    third: ['Crowning with Thorns', courage]
+    fourth: ['Carrying of the Cross', patience]
+    fifth: [Crucifixion, perseverance]
