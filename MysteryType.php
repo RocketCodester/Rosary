@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Rosary;
 
+use Monolog\Logger;
+
 require_once("Date.php");
 
 /**
@@ -20,16 +22,22 @@ class MysteryType
      * @var Date
      */
     private $date;
+    /**
+     * @var Logger
+     */
+    private $logger;
 
     /**
      * MysteryType constructor.
      * @param Date $date
+     * @param Logger $logger
      */
-    function __construct(Date $date)
+    function __construct(Date $date, Logger $logger)
     {
+        $this->logger = $logger;
         $this->date = $date;
         $this->setMysteryType($date->getDate());
-        print "In MysteryType constructor\n";
+        $logger->info(__CLASS__ . " constructor was called\n");
     }
 
     /**
@@ -38,6 +46,7 @@ class MysteryType
      */
     function setMysteryType(int $date): void
     {
+        $this->logger->info(__METHOD__ . " received: ", func_get_args());
         $this->mysteryType = ['sorrowful', 'glorious', 'joyful'][$date % 3];
     }
 

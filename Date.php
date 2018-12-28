@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Rosary;
 
+use Monolog\Logger;
+
 /**
  * Class Date
  * @package Rosary
@@ -14,14 +16,20 @@ class Date
      * @var int
      */
     private $date;
+    /**
+     * @var Logger
+     */
+    private $logger;
 
     /**
      * Date constructor.
+     * @param Logger $logger
      */
-    function __construct()
+    function __construct(Logger $logger)
     {
+        $this->logger = $logger;
         $this->setDate();
-        print "In Date constructor\n";
+        $logger->info(__CLASS__ . " constructor was called\n");
     }
 
     /**

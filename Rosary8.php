@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Rosary;
 use Symfony\Component\Yaml\Yaml;
+use Monolog\Logger;
 
 require "vendor/autoload.php";
 require_once("MysteryType.php");
@@ -30,19 +31,25 @@ class Rosary8
      * @var array
      */
     private $fruits;
+    /**
+     * @var Logger
+     */
+    private $logger;
 
     /**
-     * Yam constructor.
+     * Rosary8 constructor.
      * @param MysteryType $mysteryType
+     * @param Logger $logger
      */
-    function __construct(MysteryType $mysteryType)
+    function __construct(MysteryType $mysteryType, Logger $logger)
     {
+        $this->logger = $logger;
         $this->mysteryType = $mysteryType;
         $this->setRosaryData();
         $this->setMysteryNumbers();
         $this->setMysteries();
         $this->setFruits();
-        print "In Yam constructor\n";
+        $logger->info(__CLASS__ . " constructor was called\n");
     }
 
     /**
@@ -62,15 +69,6 @@ class Rosary8
             }
             print "Glory be to the Father, and to the Son, and to the Holy Spirit, as it was in the beginning, is now, and ever shall be, world without end. Amen.\n\n";
         }
-    }
-
-    /**
-     * @param string $mysteryType
-     * @return void
-     */
-    function setMysteryType(string $mysteryType): void
-    {
-        $this->mysteryType = $mysteryType;
     }
 
     /**
@@ -152,10 +150,17 @@ class Rosary8
     {
         return $this->fruits;
     }
-
+    /**
+     * String casting magic method.
+     * @return string
+     */
+    function __toString(): string
+    {
+        return "Rosary8";
+    }
 }
-
-$date = new Date();
-$mysteryType = new MysteryType($date);
-$rosary = new Rosary8($mysteryType);
+$logger = new Logger('rosary_app');
+$date = new Date($logger);
+$mysteryType = new MysteryType($date, $logger);
+$rosary = new Rosary8($mysteryType, $logger);
 $rosary->printRosary();
