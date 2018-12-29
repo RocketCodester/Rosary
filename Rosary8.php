@@ -164,6 +164,6 @@ class Rosary8
     }
 }
 $logger = new Logger('rosary_app');
-$date = new Date($logger);
-$mysteryType = new MysteryType($date, $logger);
+$weekday = new Weekday($logger);
+$mysteryType = new MysteryType($weekday, $logger);
 $rosary = new Rosary8($mysteryType, $logger);

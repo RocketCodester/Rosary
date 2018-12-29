@@ -6,7 +6,7 @@ namespace Rosary;
 
 use Monolog\Logger;
 
-require_once("Date.php");
+require_once("Weekday.php");
 
 /**
  * Class MysteryType
@@ -19,7 +19,7 @@ class MysteryType
      */
     private $mysteryType;
     /**
-     * @var Date
+     * @var Weekday
      */
     private $date;
     /**
@@ -29,14 +29,14 @@ class MysteryType
 
     /**
      * MysteryType constructor.
-     * @param Date $date
+     * @param Weekday $weekday
      * @param Logger $logger
      */
-    function __construct(Date $date, Logger $logger)
+    function __construct(Weekday $weekday, Logger $logger)
     {
         $this->logger = $logger;
-        $this->date = $date;
-        $this->setMysteryType($date->getDate());
+        $this->date = $weekday;
+        $this->setMysteryType($weekday->getWeekday());
         $logger->info(__CLASS__ . " constructor was called\n");
     }
 
@@ -47,7 +47,7 @@ class MysteryType
     function setMysteryType(int $date): void
     {
         $this->logger->info(__METHOD__ . " received: ", func_get_args());
-        $this->mysteryType = ['sorrowful', 'glorious', 'joyful'][$date % 3];
+        $this->mysteryType = ['glorious', 'sorrowful', 'joyful'][$date % 3];
     }
 
     /**

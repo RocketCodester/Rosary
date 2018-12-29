@@ -326,6 +326,7 @@ final class Rosary8Test extends TestCase
 
     /**
      * Provides data to the getRosary test methods.
+     * Change line separators to LF - Unix and OS X (\n) and then run this test.
      * @return array
      * @see Rosary8Test::testGetRosary()
      */

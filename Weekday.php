@@ -10,12 +10,12 @@ use Monolog\Logger;
  * Class Date
  * @package Rosary
  */
-class Date
+class Weekday
 {
     /**
      * @var int
      */
-    private $date;
+    private $weekday;
     /**
      * @var Logger
      */
@@ -28,25 +28,26 @@ class Date
     function __construct(Logger $logger)
     {
         $this->logger = $logger;
-        $this->setDate();
+        $this->setWeekday();
         $logger->info(__CLASS__ . " constructor was called\n");
     }
 
     /**
      * Sets the date.
+     * @return void
      */
-    function setDate(): void
+    function setWeekday(): void
     {
-        $this->date = (int) date('j');
+        $this->weekday = getdate()['wday'] % 3;
     }
 
     /**
      * Gets the date.
      * @return int
      */
-    function getDate(): int
+    function getWeekday(): int
     {
-        return $this->date;
+        return $this->weekday;
     }
 
     /**

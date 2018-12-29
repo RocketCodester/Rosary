@@ -3,24 +3,134 @@
 declare(strict_types=1);
 
 namespace Rosary;
+use Symfony\Component\Yaml\Yaml;
+use Monolog\Logger;
+
+require "vendor/autoload.php";
+require_once("MysteryType.php");
 
 /**
  * Class Rosary
  * @package Rosary
  */
-class Rosary
+abstract class Rosary
 {
     /**
      * @var string
      */
-    public $mysteryType;
+    private static $gloryBe = "Glory be to the Father, and to the Son, and to the Holy Spirit, as it was in the beginning, is now, and ever shall be, world without end. Amen.\n\n";
+    /**
+     * @var string
+     */
+    private static $hailMary = "Hail Mary, full of grace. The Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death, Amen.\n";
+    /**
+     * @var string
+     */
+    private static $ourFather = "Our Father, Who art in heaven, hallowed be Thy name; Thy kingdom come; Thy will be done on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil. Amen.\n";
+    /**
+     * @var array
+     */
+    private static $mysteryNumbers = ['first', 'second', 'third', 'fourth', 'fifth'];
+    /**
+     * @var string
+     */
+    private $rosaryPrayer;
+    /**
+     * @var string
+     */
+    protected $mysteryType;
+    /**
+     * @var array
+     */
+    protected $mysteries = [];
+    /**
+     * @var array
+     */
+    protected $fruits = [];
+    /**
+     * @var Logger
+     */
+    private $logger;
 
     /**
      * Rosary constructor.
+     * @param Logger $logger
      */
-    function __construct()
+    function __construct(Logger $logger)
     {
-        print "In Rosary constructor\n";
+        $this->logger = $logger;
+        $logger->info(__CLASS__ . " constructor was called\n");
+    }
+
+    /**
+     * Sets the mysteries.
+     * @param array $mysteries
+     * @return void
+     */
+    final function setMysteries(array $mysteries): void
+    {
+        $this->mysteries = $mysteries;
+    }
+
+    /**
+     * Gets the mysteries.
+     * @return array
+     */
+    final function getMysteries(): array
+    {
+        return $this->mysteries;
+    }
+
+    /**
+     * Sets the fruits of the mysteries.
+     * @param array $fruits
+     * @return  void
+     */
+    final function setFruits(array $fruits): void
+    {
+        $this->fruits = $fruits;
+    }
+
+    /**
+     * Gets the fruits of the mysteries.
+     * @return array
+     */
+    final function getFruits(): array
+    {
+        return $this->fruits;
+    }
+
+    /**
+     * Gets the mystery type for the rosary.
+     * @return string
+     */
+    final function getMysteryType(): string
+    {
+        return $this->mysteryType;
+    }
+
+    /**
+     * Sets the mystery type for the rosary.
+     * @param string $mysteryType
+     * @return void
+     */
+    function setMysteryType(string $mysteryType): void
+    {
+        $this->mysteryType = $mysteryType;
+    }
+
+    /**
+     * Gets the current date's mystery type.
+     * @param bool $luminous
+     * @return string
+     */
+    static final function getCurrentDateMysteryType(bool $luminous = false): string
+    {
+        if (!$luminous)
+        {
+            return ['glorious', 'joyful', 'sorrowful'][getdate()['wday'] % 3];
+        }
+        return ['glorious', 'joyful', 'sorrowful', 'glorious', 'luminous', 'sorrowful', 'joyful'][getdate()['wday'] % 7];
     }
 
     /**
@@ -29,115 +139,34 @@ class Rosary
      */
     function __toString(): string
     {
-        return 'Rosary';
+        return 'GloriousRosary';
     }
 
     /**
-     * Prints the rosary prayer for the current date.
+     * Sets the glorious rosaryPrayer.
      * @return void
      */
-    function printRosary(): void
+    final function setRosary(): void
     {
-        for ($decadeNumber = 1; $decadeNumber<6; $decadeNumber++)
+        for ($decadeNumber = 0; $decadeNumber<5; $decadeNumber++)
         {
-            print 'The ' . $this->getMysteryNumber($decadeNumber) . ' ' . $this->getMysteryType() . ' mystery is the ' .
-                $this->getMystery($decadeNumber) . '. Fruit of the mystery is ' . $this->getFruit($decadeNumber) . ".\n";
-            print "Our Father, Who art in heaven, hallowed be Thy name; Thy kingdom come; Thy will be done on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil. Amen.\n";
+            $this->rosaryPrayer .= 'The ' . self::$mysteryNumbers[$decadeNumber] . ' ' . $this->mysteryType . ' mystery is the ' .
+                $this->mysteries[$decadeNumber] . '. Fruit of the mystery is ' . $this->fruits[$decadeNumber] . ".\n";
+            $this->rosaryPrayer .= self::$ourFather;
             for ($hailMaryNumber = 0; $hailMaryNumber < 10; $hailMaryNumber++)
             {
-                print "Hail Mary, full of grace. The Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death, Amen.\n";
+                $this->rosaryPrayer .= self::$hailMary;
             }
-            print "Glory be to the Father, and to the Son, and to the Holy Spirit, as it was in the beginning, is now, and ever shall be, world without end. Amen.\n\n";
+            $this->rosaryPrayer .= self::$gloryBe;
         }
     }
 
     /**
-     * Gets the mystery number for a rosary.
-     * @param int $decadeNumber
+     * Gets the glorious rosary prayer.
      * @return string
      */
-    function getMysteryNumber(int $decadeNumber): string
+    final function getRosary(): ?string
     {
-        switch ($decadeNumber)
-        {
-            case 1:
-                return 'first';
-            case 2:
-                return 'second';
-            case 3:
-                return 'third';
-            case 4:
-                return 'fourth';
-            case 5:
-                return 'fifth';
-        }
-    }
-
-    /**
-     * Gets the mystery type for a rosary.
-     * @return string
-     */
-    function getMysteryType(): string
-    {
-        //May want to make mysteryType an instance variable
-        if (date('j') % 3 == 0)
-        {
-            return 'sorrowful';
-        }
-        elseif (date('j') % 3 == 1)
-        {
-            return 'glorious';
-        }
-        else
-        {
-            return 'joyful';
-        }
-    }
-
-    /**
-     * Gets the mystery for a rosary.
-     * @param int $decadeNumber
-     * @return string
-     */
-    function getMystery(int $decadeNumber): string
-    {
-        switch ($decadeNumber)
-        {
-            case 1:
-                return 'first';
-            case 2:
-                return 'second';
-            case 3:
-                return 'third';
-            case 4:
-                return 'fourth';
-            case 5:
-                return 'fifth';
-        }
-    }
-
-    /**
-     * Gets the fruit for a rosary.
-     * @param int $decadeNumber
-     * @return string
-     */
-    function getFruit(int $decadeNumber): string
-    {
-        switch ($decadeNumber)
-        {
-            case 1:
-                return 'faith';
-            case 2:
-                return 'hope';
-            case 3:
-                return 'love of God';
-            case 4:
-                return 'grace of a happy death';
-            case 5:
-                return "trust in Mary's intercession";
-        }
+        return $this->rosaryPrayer;
     }
 }
-
-$rosary = new Rosary();
-$rosary->printRosary();

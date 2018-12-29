@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0f212c-44f1-47c6-b60e-866a1debe81e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Rosary8Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CurrentRosary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GloriousRosary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JoyfulRosary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuminousRosary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SorrowfulRosary.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Date.php" beforeDir="false" afterPath="$PROJECT_DIR$/Weekday.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MysteryType.php" beforeDir="false" afterPath="$PROJECT_DIR$/MysteryType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rosary.php" beforeDir="false" afterPath="$PROJECT_DIR$/Rosary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rosary2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rosary3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rosary4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rosary5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rosary6.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rosary7.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rosary8.php" beforeDir="false" afterPath="$PROJECT_DIR$/Rosary8.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rosary8Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/Rosary8Test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RosaryPrayer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/RosaryPrayer.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,14 +27,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Rosary$Rosary8Test.xml" NAME="Rosary8Test Coverage Results" MODIFIED="1546023185374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Rosary$Rosary8Test_testSetMysteries.xml" NAME="Rosary8Test.testSetMysteries Coverage Results" MODIFIED="1546044333266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Rosary$Rosary8Test_testGetMysteries.xml" NAME="Rosary8Test.testGetMysteries Coverage Results" MODIFIED="1546043971393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Rosary$Rosary8Test__1_.xml" NAME="Rosary8Test (1) Coverage Results" MODIFIED="1546050013385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Rosary$Rosary8Test__1_.xml" NAME="Rosary8Test (1) Coverage Results" MODIFIED="1546107789925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Rosary$Rosary8Test_testGetMysteryNumbers.xml" NAME="Rosary8Test.testGetMysteryNumbers Coverage Results" MODIFIED="1546022993451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Rosary$Rosary8Test_testGetMysteryNumbers__1_.xml" NAME="Rosary8Test.testGetMysteryNumbers (1) Coverage Results" MODIFIED="1546024398382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Rosary$Rosary8Test_testSetMysteryNumbers.xml" NAME="Rosary8Test.testSetMysteryNumbers Coverage Results" MODIFIED="1546041334792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -40,13 +56,32 @@
     <expand />
     <select />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/rosary.yaml">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="289">
+                    <caret line="17" column="37" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="37" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rosary8.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="168" column="26" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
+            <state relative-caret-position="180">
+              <caret line="165" column="35" lean-forward="true" selection-start-line="165" selection-start-column="35" selection-end-line="165" selection-end-column="35" />
               <folding>
                 <element signature="e#51#83#0#PHP" expanded="true" />
               </folding>
@@ -54,56 +89,134 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Rosary8Test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7395">
-              <caret line="443" selection-start-line="443" selection-end-line="443" />
+            <state relative-caret-position="279">
+              <caret line="328" column="35" selection-start-line="328" selection-start-column="35" selection-end-line="328" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php">
+        <entry file="file://$PROJECT_DIR$/Weekday.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12053">
-              <caret line="758" selection-start-line="758" selection-end-line="758" />
+            <state relative-caret-position="191">
+              <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Util/Test.php">
+        <entry file="file://$PROJECT_DIR$/Rosary.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16337">
-              <caret line="983" selection-start-line="983" selection-end-line="983" />
+            <state relative-caret-position="1656">
+              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+              <folding>
+                <element signature="e#51#83#0#PHP" expanded="true" />
+                <element signature="e#198#228#0#PHP" />
+                <element signature="e#1252#1311#0#PHP" />
+                <element signature="e#1397#1498#0#PHP" />
+                <element signature="e#2141#2210#0#PHP" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rosary.yaml">
+        <entry file="file://$PROJECT_DIR$/CurrentRosary.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="327">
+              <caret line="69" column="33" lean-forward="true" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+              <folding>
+                <element signature="e#230#260#0#PHP" />
+                <element signature="e#306#335#0#PHP" />
+                <element signature="e#363#565#0#PHP" />
+                <element signature="e#625#762#0#PHP" />
+                <element signature="e#768#798#0#PHP" />
+                <element signature="e#824#898#0#PHP" />
+                <element signature="e#1093#1162#0#PHP" />
+                <element signature="e#1167#1241#0#PHP" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+        <entry file="file://$PROJECT_DIR$/LuminousRosary.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="208">
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+              <folding>
+                <element signature="e#230#260#0#PHP" />
+                <element signature="e#306#335#0#PHP" />
+                <element signature="e#363#565#0#PHP" />
+                <element signature="e#571#600#0#PHP" />
+                <element signature="e#625#762#0#PHP" />
+                <element signature="e#768#798#0#PHP" />
+                <element signature="e#825#900#0#PHP" />
+                <element signature="e#1093#1162#0#PHP" />
+                <element signature="e#1167#1241#0#PHP" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Date.php">
+        <entry file="file://$PROJECT_DIR$/MysteryType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="204">
+              <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GloriousRosary.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="29" column="6" lean-forward="true" selection-end-line="70" />
+              <folding>
+                <element signature="e#212#242#0#PHP" />
+                <element signature="e#444#473#0#PHP" />
+                <element signature="e#499#749#0#PHP" />
+                <element signature="e#554#739#0#PHP" />
+                <element signature="e#557#587#0#PHP" />
+                <element signature="e#614#689#0#PHP" />
+                <element signature="e#2262#2331#0#PHP" />
+                <element signature="e#2271#2345#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JoyfulRosary.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+              <folding>
+                <element signature="e#179#209#0#PHP" />
+                <element signature="e#255#284#0#PHP" />
+                <element signature="e#717#747#0#PHP" />
+                <element signature="e#1042#1111#0#PHP" />
+                <element signature="e#1116#1190#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SorrowfulRosary.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+              <folding>
+                <element signature="e#177#207#0#PHP" />
+                <element signature="e#251#280#0#PHP" />
+                <element signature="e#652#682#0#PHP" />
+                <element signature="e#975#1044#0#PHP" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,15 +225,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;</find>
-      <find>//</find>
-      <find>Yam2</find>
-      <find>setMysteryType</find>
-      <find>info</find>
-      <find>__to</find>
-      <find>return</find>
-      <find>array_keys</find>
-      <find>mysteriesProvider</find>
       <find>array (</find>
       <find>)</find>
       <find>sorrow</find>
@@ -128,13 +232,29 @@
       <find>for</find>
       <find>first</find>
       <find>setM</find>
-      <find>$mysteryType</find>
       <find>Mary's</find>
       <find>$this-&gt;mysteryType</find>
-      <find>joyful</find>
       <find>^\s*^</find>
       <find>^\r*^</find>
       <find>$this-&gt;logger</find>
+      <find>Rosary8</find>
+      <find>Rosary</find>
+      <find>SorrowfulRosary</find>
+      <find>$joyfulRosary</find>
+      <find>joyful</find>
+      <find>ab</find>
+      <find>$gloryBe</find>
+      <find>mysteryNumbers</find>
+      <find>$mysteryType</find>
+      <find>GloriousRosary</find>
+      <find>mysteryTyp</find>
+      <find>$mysteries</find>
+      <find>gloriousRosary</find>
+      <find>glorious</find>
+      <find>mysteryType</find>
+      <find>['sorrowful', 'glorious', 'joyful'][$date % 3]</find>
+      <find>$date</find>
+      <find>date</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -144,6 +264,18 @@
       <replace>$mysteryType</replace>
       <replace>glorious</replace>
       <replace>$logger</replace>
+      <replace>JoyfulRosary</replace>
+      <replace>$joyfulRosary</replace>
+      <replace>joyful</replace>
+      <replace>SorrowfulRosary</replace>
+      <replace>$sorrowfulRosary</replace>
+      <replace>sorrowful</replace>
+      <replace>CurrentRosary</replace>
+      <replace>current</replace>
+      <replace>LuminousRosary</replace>
+      <replace>luminousRosary</replace>
+      <replace>luminou</replace>
+      <replace>Rosary</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -158,16 +290,23 @@
         <option value="$PROJECT_DIR$/Rosary4.php" />
         <option value="$PROJECT_DIR$/Rosary3.php" />
         <option value="$PROJECT_DIR$/Rosary2.php" />
-        <option value="$PROJECT_DIR$/Rosary.php" />
-        <option value="$PROJECT_DIR$/Date.php" />
-        <option value="$PROJECT_DIR$/MysteryType.php" />
         <option value="$PROJECT_DIR$/composer.lock" />
         <option value="$PROJECT_DIR$/tests/Rosary8Test.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/rosary.yaml" />
-        <option value="$PROJECT_DIR$/Rosary8Test.php" />
-        <option value="$PROJECT_DIR$/Rosary8.php" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/deprecated/Rosary.php" />
+        <option value="$PROJECT_DIR$/SorrowfulRosary.php" />
+        <option value="$PROJECT_DIR$/JoyfulRosary.php" />
+        <option value="$PROJECT_DIR$/GloriousRosary.php" />
+        <option value="$PROJECT_DIR$/Rosary.php" />
+        <option value="$PROJECT_DIR$/LuminousRosary.php" />
+        <option value="$PROJECT_DIR$/CurrentRosary.php" />
+        <option value="$PROJECT_DIR$/Date.php" />
+        <option value="$PROJECT_DIR$/Weekday.php" />
+        <option value="$PROJECT_DIR$/MysteryType.php" />
+        <option value="$PROJECT_DIR$/Rosary8.php" />
+        <option value="$PROJECT_DIR$/Rosary8Test.php" />
       </list>
     </option>
   </component>
@@ -217,9 +356,9 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1374" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -228,6 +367,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,7 +379,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,7 +421,19 @@
       <TestRunner class="Rosary\Rosary8Test" file="$PROJECT_DIR$/Rosary8Test.php" method="testSetMysteries" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="Date" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/Date.php">
+    <configuration name="CurrentRosary" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/CurrentRosary.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="Date" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/Weekday.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="GloriousRosary" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/GloriousRosary.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="JoyfulRosary" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/JoyfulRosary.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="LuminousRosary" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/LuminousRosary.php">
       <method v="2" />
     </configuration>
     <configuration name="MysteryType" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/MysteryType.php">
@@ -312,6 +463,9 @@
     <configuration name="Rosary8" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/Rosary8.php">
       <method v="2" />
     </configuration>
+    <configuration name="SorrowfulRosary" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/SorrowfulRosary.php">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="PHP Script.Date" />
       <item itemvalue="PHP Script.MysteryType" />
@@ -323,6 +477,11 @@
       <item itemvalue="PHP Script.Rosary7" />
       <item itemvalue="PHP Script.Rosary8" />
       <item itemvalue="PHP Script.Rosary" />
+      <item itemvalue="PHP Script.GloriousRosary" />
+      <item itemvalue="PHP Script.JoyfulRosary" />
+      <item itemvalue="PHP Script.SorrowfulRosary" />
+      <item itemvalue="PHP Script.LuminousRosary" />
+      <item itemvalue="PHP Script.CurrentRosary" />
       <item itemvalue="PHPUnit.Rosary8Test (1)" />
       <item itemvalue="PHPUnit.Rosary8Test.testConstruct" />
       <item itemvalue="PHPUnit.Rosary8Test.testGetFruits" />
@@ -352,13 +511,11 @@
       <workItem from="1545504223672" duration="15466000" />
       <workItem from="1545531978315" duration="3775000" />
       <workItem from="1546052374468" duration="309000" />
+      <workItem from="1546057079995" duration="13096000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Rosary8Test_(1) - 2018.12.28 at 20h 43m 36s.xml">
-      <configuration name="Rosary8Test (1)" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="Rosary8Test_(1) - 2018.12.28 at 20h 43m 55s.xml">
       <configuration name="Rosary8Test (1)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -386,9 +543,12 @@
     <history-entry file="Rosary8Test_(1) - 2018.12.28 at 21h 01m 51s.xml">
       <configuration name="Rosary8Test (1)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="Rosary8Test_(1) - 2018.12.29 at 12h 23m 11s.xml">
+      <configuration name="Rosary8Test (1)" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37852000" />
+    <option name="totallyTimeSpent" value="50948000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,14 +560,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49107143" visible="true" weight="0.40915394" />
-      <window_info id="Structure" order="1" sideWeight="0.5089286" side_tool="true" weight="0.30235782" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48026314" visible="true" weight="0.347651" />
+      <window_info id="Structure" order="1" sideWeight="0.5197368" side_tool="true" visible="true" weight="0.347651" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65973157" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6590604" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.46308726" weight="0.3985294" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -415,14 +576,36 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49791956" weight="0.32886904" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.76421636" visible="true" weight="0.33333334" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.23578364" side_tool="true" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.7630873" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3409396" side_tool="true" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
       <window_info anchor="right" id="Database" order="3" weight="0.3295302" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4890351" visible="true" weight="0.29127517" />
+      <window_info id="Structure" order="1" sideWeight="0.51096493" side_tool="true" visible="true" weight="0.29127517" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6590604" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.46308726" weight="0.3985294" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4966443" weight="0.32941177" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49791956" weight="0.32886904" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.7630873" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3409396" side_tool="true" visible="true" weight="0.32941177" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3295302" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -445,53 +628,68 @@
           <line>62</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/GloriousRosary.php</url>
+          <line>67</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/CurrentRosary.php</url>
+          <line>52</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Rosary.php</url>
+          <line>128</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>$mysteryType</expression-string>
+        <expression-string>['glorious', 'joyful', 'sorrowful', 'glorious', 'luminous', 'sorrowful', 'joyful'][0]</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$mysteryNumber[1]</expression-string>
+        <expression-string>['glorious', 'joyful', 'sorrowful', 'glorious', 'luminous', 'sorrowful', 'joyful'][6]</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$this-&gt;fruits</expression-string>
+        <expression-string>['glorious', 'joyful', 'sorrowful', 'glorious', 'luminous', 'sorrowful', 'joyful'][7]</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$mysteryNumbers</expression-string>
+        <expression-string>['glorious', 'joyful', 'sorrowful', 'glorious', 'luminous', 'sorrowful', 'joyful'][5]</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$mysteryNumber</expression-string>
+        <expression-string>['glorious', 'joyful', 'sorrowful', 'glorious', 'luminous', 'sorrowful', 'joyful'][4]</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$this-&gt;mysteries</expression-string>
+        <expression-string>['glorious', 'joyful', 'sorrowful', 'glorious', 'luminous', 'sorrowful', 'joyful'][3]</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>__FUNCTION__</expression-string>
+        <expression-string>['glorious', 'joyful', 'sorrowful', 'glorious', 'luminous', 'sorrowful', 'joyful'][2]</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>__FUNCION__</expression-string>
+        <expression-string>['glorious', 'joyful', 'sorrowful', 'glorious', 'luminous', 'sorrowful', 'joyful'][1]</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>__CLASS__</expression-string>
+        <expression-string>['glorious', 'joyful', 'sorrowful', 'glorious', 'luminous', 'sorrowful', 'joyful'][getdate()['wday'] % 7]</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -499,13 +697,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/a.php" />
-    <entry file="file://$PROJECT_DIR$/Rosary.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="143" selection-start-line="143" selection-end-line="143" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rosary3.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -573,49 +764,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MysteryType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/MysteryNumbers.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rosary8Test.php" />
-    <entry file="file://$PROJECT_DIR$/Rosary8.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="168" column="26" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
-          <folding>
-            <element signature="e#51#83#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Mysteries.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fruits.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7395">
+        <state relative-caret-position="361">
           <caret line="443" selection-start-line="443" selection-end-line="443" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12053">
+        <state relative-caret-position="361">
           <caret line="758" selection-start-line="758" selection-end-line="758" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Util/Test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16337">
+        <state relative-caret-position="361">
           <caret line="983" selection-start-line="983" selection-end-line="983" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rosary.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -626,10 +801,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Date.php">
+    <entry file="file://$PROJECT_DIR$/deprecated/Rosary.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deprecated/Mysteries.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rosary.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SorrowfulRosary.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#177#207#0#PHP" />
+            <element signature="e#251#280#0#PHP" />
+            <element signature="e#652#682#0#PHP" />
+            <element signature="e#975#1044#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JoyfulRosary.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#179#209#0#PHP" />
+            <element signature="e#255#284#0#PHP" />
+            <element signature="e#717#747#0#PHP" />
+            <element signature="e#1042#1111#0#PHP" />
+            <element signature="e#1116#1190#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GloriousRosary.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="29" column="6" lean-forward="true" selection-end-line="70" />
+          <folding>
+            <element signature="e#212#242#0#PHP" />
+            <element signature="e#444#473#0#PHP" />
+            <element signature="e#499#749#0#PHP" />
+            <element signature="e#554#739#0#PHP" />
+            <element signature="e#557#587#0#PHP" />
+            <element signature="e#614#689#0#PHP" />
+            <element signature="e#2262#2331#0#PHP" />
+            <element signature="e#2271#2345#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuminousRosary.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="e#230#260#0#PHP" />
+            <element signature="e#306#335#0#PHP" />
+            <element signature="e#363#565#0#PHP" />
+            <element signature="e#571#600#0#PHP" />
+            <element signature="e#625#762#0#PHP" />
+            <element signature="e#768#798#0#PHP" />
+            <element signature="e#825#900#0#PHP" />
+            <element signature="e#1093#1162#0#PHP" />
+            <element signature="e#1167#1241#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weekday.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CurrentRosary.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="69" column="33" lean-forward="true" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+          <folding>
+            <element signature="e#230#260#0#PHP" />
+            <element signature="e#306#335#0#PHP" />
+            <element signature="e#363#565#0#PHP" />
+            <element signature="e#625#762#0#PHP" />
+            <element signature="e#768#798#0#PHP" />
+            <element signature="e#824#898#0#PHP" />
+            <element signature="e#1093#1162#0#PHP" />
+            <element signature="e#1167#1241#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rosary.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+          <folding>
+            <element signature="e#51#83#0#PHP" expanded="true" />
+            <element signature="e#198#228#0#PHP" />
+            <element signature="e#1252#1311#0#PHP" />
+            <element signature="e#1397#1498#0#PHP" />
+            <element signature="e#2141#2210#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MysteryType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rosary8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="165" column="35" lean-forward="true" selection-start-line="165" selection-start-column="35" selection-end-line="165" selection-end-column="35" />
+          <folding>
+            <element signature="e#51#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rosary8Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="328" column="35" selection-start-line="328" selection-start-column="35" selection-end-line="328" selection-end-column="35" />
         </state>
       </provider>
     </entry>
