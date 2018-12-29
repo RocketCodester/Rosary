@@ -5,6 +5,7 @@ namespace Rosary;
 
 use PHPUnit\Framework\TestCase;
 use Monolog\Logger;
+use Symfony\Component\Yaml\Yaml;
 
 /**
  * Class Rosary8Test
@@ -69,17 +70,6 @@ final class Rosary8Test extends TestCase
     }
 
     /**
-     * Provides data to the testSetMysteryNumbers and testGetMysteryNumbers test methods.
-     * @return array
-     * @see Rosary8Test::testGetMysteryNumbers()
-     */
-    public function mysteryNumbersProvider(): array
-    {
-        $mysteryNumbers = ['first', 'second', 'third', 'fourth', 'fifth'];
-        return [[$mysteryNumbers]];
-    }
-
-    /**
      * Tests the getMysteries method.
      * @see Rosary8::getMysteries()
      * @dataProvider mysteriesProvider
@@ -107,23 +97,6 @@ final class Rosary8Test extends TestCase
     }
 
     /**
-     * Provides data to the setMysteries and getMysteries test methods.
-     * @return array
-     * @see Rosary8Test::testGetMysteries()
-     */
-    public function mysteriesProvider(): array
-    {
-        $mysteries = [
-            "Resurrection",
-            "Ascension",
-            "Descent of the Holy Ghost upon the apostles and disciples",
-            "Assumption",
-            "Coronation of Mary as Queen of heaven and earth"
-        ];
-        return [[$mysteries]];
-    }
-
-    /**
      * Tests the getMysteries method.
      * @see Rosary8::getFruits()
      * @dataProvider fruitsProvider
@@ -148,23 +121,6 @@ final class Rosary8Test extends TestCase
     {
         $this->rosary8->setFruits();
         $this->assertEquals($expectedFruits, $this->rosary8->getFruits());
-    }
-
-    /**
-     * Provides data to the setFruits and getFruits test methods.
-     * @return array
-     * @see Rosary8Test::testGetFruits()
-     */
-    public function fruitsProvider(): array
-    {
-        $fruits = [
-            'faith',
-            'hope',
-            'love of God',
-            'grace of a happy death',
-            "trust in Mary's intercession",
-        ];
-        return [[$fruits]];
     }
 
     /**
@@ -203,6 +159,57 @@ final class Rosary8Test extends TestCase
     public function testSetRosaryData(array $expectedRosaryData): void
     {
         $this->assertEquals($expectedRosaryData, $this->rosary8->getRosaryData());
+    }
+
+    /**
+     * Provides data to the testSetMysteryNumbers and testGetMysteryNumbers test methods.
+     * @return array
+     * @see Rosary8Test::testGetMysteryNumbers()
+     */
+    public function mysteryNumbersProvider(): array
+    {
+        $mysteryNumbers = ['first', 'second', 'third', 'fourth', 'fifth'];
+        $yaml = Yaml::dump($mysteryNumbers);
+        file_put_contents('MysteryNumbers.yaml', $yaml);
+        return [[$mysteryNumbers]];
+    }
+
+    /**
+     * Provides data to the setMysteries and getMysteries test methods.
+     * @return array
+     * @see Rosary8Test::testGetMysteries()
+     */
+    public function mysteriesProvider(): array
+    {
+        $mysteries = [
+            "Resurrection",
+            "Ascension",
+            "Descent of the Holy Ghost upon the apostles and disciples",
+            "Assumption",
+            "Coronation of Mary as Queen of heaven and earth",
+        ];
+        $yaml = Yaml::dump($mysteries);
+        file_put_contents('Mysteries.yaml', $yaml);
+        return [[$mysteries]];
+    }
+
+    /**
+     * Provides data to the setFruits and getFruits test methods.
+     * @return array
+     * @see Rosary8Test::testGetFruits()
+     */
+    public function fruitsProvider(): array
+    {
+        $fruits = [
+            'faith',
+            'hope',
+            'love of God',
+            'grace of a happy death',
+            "trust in Mary's intercession",
+        ];
+        $yaml = Yaml::dump($fruits);
+        file_put_contents('Fruits.yaml', $yaml);
+        return [[$fruits]];
     }
 
     /**
@@ -298,6 +305,8 @@ final class Rosary8Test extends TestCase
                         ],
                 ],
         ];
+        $yaml = Yaml::dump($rosaryData);
+        file_put_contents('RosaryData.yaml', $yaml);
         return [[$rosaryData]];
     }
 
@@ -393,6 +402,8 @@ Hail Mary, full of grace. The Lord is with thee. Blessed art thou amongst women,
 Glory be to the Father, and to the Son, and to the Holy Spirit, as it was in the beginning, is now, and ever shall be, world without end. Amen.
 
 ";
+        $yaml = Yaml::dump($rosaryPrayer);
+        file_put_contents('RosaryPrayer.yaml', $yaml);
         return [[$rosaryPrayer]];
     }
 }
