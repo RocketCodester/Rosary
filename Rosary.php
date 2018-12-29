@@ -3,7 +3,6 @@
 declare(strict_types=1);
 
 namespace Rosary;
-use Symfony\Component\Yaml\Yaml;
 use Monolog\Logger;
 
 require "vendor/autoload.php";
@@ -114,7 +113,7 @@ abstract class Rosary
      * @param string $mysteryType
      * @return void
      */
-    function setMysteryType(string $mysteryType): void
+    final function setMysteryType(string $mysteryType): void
     {
         $this->mysteryType = $mysteryType;
     }

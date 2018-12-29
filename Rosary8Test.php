@@ -11,7 +11,7 @@ use Symfony\Component\Yaml\Yaml;
  * Class Rosary8Test
  * @package Rosary
  */
-final class Rosary8Test extends TestCase
+class Rosary8Test extends TestCase
 {
     /**
      * @var Rosary8
@@ -164,7 +164,7 @@ final class Rosary8Test extends TestCase
     /**
      * Provides data to the testSetMysteryNumbers and testGetMysteryNumbers test methods.
      * @return array
-     * @see Rosary8Test::testGetMysteryNumbers()
+     * @see GloriousRosaryTest::testGetMysteryNumbers()
      */
     public function mysteryNumbersProvider(): array
     {
@@ -177,7 +177,7 @@ final class Rosary8Test extends TestCase
     /**
      * Provides data to the setMysteries and getMysteries test methods.
      * @return array
-     * @see Rosary8Test::testGetMysteries()
+     * @see GloriousRosaryTest::testGetMysteries()
      */
     public function mysteriesProvider(): array
     {
@@ -196,7 +196,7 @@ final class Rosary8Test extends TestCase
     /**
      * Provides data to the setFruits and getFruits test methods.
      * @return array
-     * @see Rosary8Test::testGetFruits()
+     * @see GloriousRosaryTest::testGetFruits()
      */
     public function fruitsProvider(): array
     {
@@ -215,7 +215,7 @@ final class Rosary8Test extends TestCase
     /**
      * Provides data to the setRosaryData and getRosaryData test methods.
      * @return array
-     * @see Rosary8Test::testGetRosaryData()
+     * @see GloriousRosaryTest::testGetRosaryData()
      */
     public function rosaryDataProvider(): array
     {
@@ -328,7 +328,7 @@ final class Rosary8Test extends TestCase
      * Provides data to the getRosary test methods.
      * Change line separators to LF - Unix and OS X (\n) and then run this test.
      * @return array
-     * @see Rosary8Test::testGetRosary()
+     * @see GloriousRosaryTest::testGetRosary()
      */
     public function rosaryProvider(): array
     {
