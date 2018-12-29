@@ -22,7 +22,7 @@ class Rosary8
     /**
      * @var array
      */
-    private $mysteryNumbers;
+    private $mysteryNumbers = ['first', 'second', 'third', 'fourth', 'fifth'];
     /**
      * @var array
      */
@@ -46,7 +46,6 @@ class Rosary8
         $this->logger = $logger;
         $this->mysteryType = $mysteryType;
         $this->setRosaryData();
-        $this->setMysteryNumbers();
         $this->setMysteries();
         $this->setFruits();
         $logger->info(__CLASS__ . " constructor was called\n");
@@ -54,21 +53,23 @@ class Rosary8
 
     /**
      * Prints the rosary prayer for the current date.
-     * @return void
+     * @return string
      */
-    function printRosary(): void
+    function getRosary(): string
     {
+        $rosary = '';
         for ($decadeNumber = 0; $decadeNumber<5; $decadeNumber++)
         {
-            print 'The ' . $this->getMysteryNumbers()[$decadeNumber] . ' ' . $this->mysteryType->getMysteryType() . ' mystery is the ' .
+            $rosary .= 'The ' . $this->getMysteryNumbers()[$decadeNumber] . ' ' . $this->mysteryType->getMysteryType() . ' mystery is the ' .
                 $this->getMysteries()[$decadeNumber] . '. Fruit of the mystery is ' . $this->getFruits()[$decadeNumber] . ".\n";
-            print "Our Father, Who art in heaven, hallowed be Thy name; Thy kingdom come; Thy will be done on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil. Amen.\n";
+            $rosary .= "Our Father, Who art in heaven, hallowed be Thy name; Thy kingdom come; Thy will be done on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil. Amen.\n";
             for ($hailMaryNumber = 0; $hailMaryNumber < 10; $hailMaryNumber++)
             {
-                print "Hail Mary, full of grace. The Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death, Amen.\n";
+                $rosary .= "Hail Mary, full of grace. The Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death, Amen.\n";
             }
-            print "Glory be to the Father, and to the Son, and to the Holy Spirit, as it was in the beginning, is now, and ever shall be, world without end. Amen.\n\n";
+            $rosary .= "Glory be to the Father, and to the Son, and to the Holy Spirit, as it was in the beginning, is now, and ever shall be, world without end. Amen.\n\n";
         }
+        return $rosary;
     }
 
     /**
@@ -114,9 +115,11 @@ class Rosary8
     function setMysteries(): void
     {
         $mysteryNumbers = $this->rosary[$this->mysteryType->getMysteryType()];
+
+        $mysteryCount = 0;
         foreach ($mysteryNumbers as $mysteryNumber)
         {
-            $this->mysteries[] = $mysteryNumber[0];
+            $this->mysteries[$mysteryCount++] = $mysteryNumber[0];
         }
     }
 
@@ -136,9 +139,10 @@ class Rosary8
     function setFruits(): void
     {
         $mysteryNumbers = $this->rosary[$this->mysteryType->getMysteryType()];
+        $mysteryCount = 0;
         foreach ($mysteryNumbers as $mysteryNumber)
         {
-            $this->fruits[] = $mysteryNumber[1];
+            $this->fruits[$mysteryCount++] = $mysteryNumber[1];
         }
     }
 
@@ -156,11 +160,10 @@ class Rosary8
      */
     function __toString(): string
     {
-        return "Rosary8";
+        return 'Rosary8';
     }
 }
 $logger = new Logger('rosary_app');
 $date = new Date($logger);
 $mysteryType = new MysteryType($date, $logger);
 $rosary = new Rosary8($mysteryType, $logger);
-$rosary->printRosary();
