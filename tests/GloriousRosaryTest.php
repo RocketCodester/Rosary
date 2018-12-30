@@ -6,7 +6,7 @@ namespace Rosary;
 use PHPUnit\Framework\TestCase;
 use Monolog\Logger;
 use Symfony\Component\Yaml\Yaml;
-require_once "GloriousRosary.php";
+require_once "C:\\xampp\htdocs\Rosary\GloriousRosary.php";
 
 /**
  * Class GloriousRosaryTest
@@ -99,6 +99,20 @@ class GloriousRosaryTest extends TestCase
     }
 
     /**
+     * Tests the getRosaryPrayer test method.
+     * @see Rosary::getRosaryPrayer()
+     * @dataProvider rosaryProvider
+     * @param string $expectedRosaryPrayer
+     * @throws \Exception
+     * @return void
+     */
+    public function testGetRosaryPrayer(string $expectedRosaryPrayer): void
+    {
+        $this->gloriousRosary->setRosaryPrayer();
+        $this->assertEquals($expectedRosaryPrayer, $this->gloriousRosary->getRosaryPrayer());
+    }
+
+    /**
      * Tests the __toString test method.
      * @see Rosary::__toString
      * @throws \Exception
@@ -129,20 +143,6 @@ class GloriousRosaryTest extends TestCase
     {
         $fruits = Yaml::parseFile('GloriousRosary.yaml')['fruits'];
         return [[$fruits]];
-    }
-
-    /**
-     * Tests the getRosaryPrayer test method.
-     * @see Rosary::getRosaryPrayer()
-     * @dataProvider rosaryProvider
-     * @param string $expectedRosaryPrayer
-     * @throws \Exception
-     * @return void
-     */
-    public function testGetRosaryPrayer(string $expectedRosaryPrayer): void
-    {
-        $this->gloriousRosary->setRosaryPrayer();
-        $this->assertEquals($expectedRosaryPrayer, $this->gloriousRosary->getRosaryPrayer());
     }
 
     /**

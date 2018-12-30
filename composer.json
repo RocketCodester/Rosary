@@ -6,7 +6,7 @@
     },
     "autoload-dev":{
         "psr-0":{
-            "Rosary\\":""
+            "Rosary\\Tests":"tests/"
         }
     },
     "require": {

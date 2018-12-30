@@ -162,6 +162,20 @@ class Rosary8Test extends TestCase
     }
 
     /**
+     * Tests the getRosary test method.
+     * @see Rosary8::getRosary()
+     * @dataProvider rosaryProvider
+     * @param string $expectedRosaryPrayer
+     * @throws \Exception
+     * @return void
+     */
+    public function testGetRosary(string $expectedRosaryPrayer): void
+    {
+        $this->rosary8->setRosaryData();
+        $this->assertEquals($expectedRosaryPrayer, $this->rosary8->getRosary());
+    }
+
+    /**
      * Provides data to the testSetMysteryNumbers and testGetMysteryNumbers test methods.
      * @return array
      * @see GloriousRosaryTest::testGetMysteryNumbers()
@@ -169,8 +183,6 @@ class Rosary8Test extends TestCase
     public function mysteryNumbersProvider(): array
     {
         $mysteryNumbers = ['first', 'second', 'third', 'fourth', 'fifth'];
-        $yaml = Yaml::dump($mysteryNumbers);
-        file_put_contents('MysteryNumbers.yaml', $yaml);
         return [[$mysteryNumbers]];
     }
 
@@ -194,6 +206,18 @@ class Rosary8Test extends TestCase
     {
         $fruits = Yaml::parseFile('GloriousRosary.yaml')['fruits'];
         return [[$fruits]];
+    }
+
+    /**
+     * Provides data to the getRosary test methods.
+     * Change line separators to LF - Unix and OS X (\n) and then run this test.
+     * @return array
+     * @see GloriousRosaryTest::testGetRosaryPrayer()
+     */
+    public function rosaryProvider(): array
+    {
+        $rosaryPrayer = Yaml::parseFile('GloriousRosary.yaml')['rosaryPrayer'];
+        return [[$rosaryPrayer]];
     }
 
     /**
@@ -290,31 +314,5 @@ class Rosary8Test extends TestCase
                 ],
         ];
         return [[$rosaryData]];
-    }
-
-    /**
-     * Tests the getRosary test method.
-     * @see Rosary8::getRosary()
-     * @dataProvider rosaryProvider
-     * @param string $expectedRosaryPrayer
-     * @throws \Exception
-     * @return void
-     */
-    public function testGetRosary(string $expectedRosaryPrayer): void
-    {
-        $this->rosary8->setRosaryData();
-        $this->assertEquals($expectedRosaryPrayer, $this->rosary8->getRosary());
-    }
-
-    /**
-     * Provides data to the getRosary test methods.
-     * Change line separators to LF - Unix and OS X (\n) and then run this test.
-     * @return array
-     * @see GloriousRosaryTest::testGetRosaryPrayer()
-     */
-    public function rosaryProvider(): array
-    {
-        $rosaryPrayer = Yaml::parseFile('GloriousRosary.yaml')['rosaryPrayer'];
-        return [[$rosaryPrayer]];
     }
 }

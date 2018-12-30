@@ -78,7 +78,7 @@ class Rosary8
      */
     function setRosaryData(): void
     {
-        $this->rosary = Yaml::parseFile('rosary.yaml');
+        $this->rosary = Yaml::parseFile('rosary8.yaml');
     }
 
     /**
