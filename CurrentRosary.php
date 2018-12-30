@@ -66,5 +66,5 @@ class CurrentRosary extends Rosary
 
 $logger = new Logger('rosary_app');
 $currentRosary = new CurrentRosary($logger);
-$currentRosary->setRosary();
-echo $currentRosary->getRosary();
+$currentRosary->setRosaryPrayer();
+echo $currentRosary->getRosaryPrayer();

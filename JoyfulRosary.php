@@ -65,5 +65,5 @@ class JoyfulRosary extends Rosary
 
 $logger = new Logger('rosary_app');
 $joyfulRosary = new JoyfulRosary($logger);
-$joyfulRosary->setRosary();
-echo $joyfulRosary->getRosary();
+$joyfulRosary->setRosaryPrayer();
+echo $joyfulRosary->getRosaryPrayer();

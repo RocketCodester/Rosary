@@ -65,5 +65,5 @@ class SorrowfulRosary extends Rosary
 
 $logger = new Logger('rosary_app');
 $sorrowfulRosary = new SorrowfulRosary($logger);
-$sorrowfulRosary->setRosary();
-echo $sorrowfulRosary->getRosary();
+$sorrowfulRosary->setRosaryPrayer();
+echo $sorrowfulRosary->getRosaryPrayer();

@@ -145,7 +145,7 @@ abstract class Rosary
      * Sets the glorious rosaryPrayer.
      * @return void
      */
-    final function setRosary(): void
+    final function setRosaryPrayer(): void
     {
         for ($decadeNumber = 0; $decadeNumber<5; $decadeNumber++)
         {
@@ -164,7 +164,7 @@ abstract class Rosary
      * Gets the glorious rosary prayer.
      * @return string
      */
-    final function getRosary(): ?string
+    final function getRosaryPrayer(): ?string
     {
         return $this->rosaryPrayer;
     }
