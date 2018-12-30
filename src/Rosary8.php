@@ -3,10 +3,9 @@
 declare(strict_types=1);
 
 namespace Rosary\src;
+
 use Symfony\Component\Yaml\Yaml;
 use Monolog\Logger;
-
-require_once "MysteryType.php";
 
 class Rosary8
 {

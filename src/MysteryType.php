@@ -6,8 +6,6 @@ namespace Rosary\src;
 
 use Monolog\Logger;
 
-require_once("Weekday.php");
-
 /**
  * Class MysteryType
  * @package Rosary

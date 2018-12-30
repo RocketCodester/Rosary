@@ -6,8 +6,6 @@ namespace Rosary\src;
 
 use Monolog\Logger;
 
-require_once("MysteryType.php");
-
 /**
  * Class CurrentRosary
  * @package Rosary
