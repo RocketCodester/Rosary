@@ -1,13 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Rosary\tests;
+namespace RosaryApp\Src;
+require 'GloriousRosary.yaml';
 
 use PHPUnit\Framework\TestCase;
 use Monolog\Logger;
 use Symfony\Component\Yaml\Yaml;
-use Rosary\src\Rosary8;
-use Rosary\src\MysteryType;
 
 /**
  * Class Rosary8Test
@@ -26,6 +25,7 @@ class Rosary8Test extends TestCase
      */
     public function setup(): void
     {
+//        $b=Yaml::parseFile('GloriousRosary.yaml')['fruits'];
         $logger = $this->getMockBuilder(Logger::class)->disableOriginalConstructor()->getMock();
         $mysteryType = $this->getMockBuilder(MysteryType::class)->disableOriginalConstructor()->getMock();
         $mysteryType->method('getMysteryType')->willReturn('glorious');
@@ -195,7 +195,7 @@ class Rosary8Test extends TestCase
      */
     public function mysteriesProvider(): array
     {
-        $mysteries = Yaml::parseFile('C:\xampp\htdocs\Rosary\tests\GloriousRosary.yaml')['mysteries'];
+        $mysteries = Yaml::parseFile('C:\xampp\htdocs\Rosary\tests\src\GloriousRosary.yaml')['mysteries'];
         return [[$mysteries]];
     }
 
@@ -206,19 +206,18 @@ class Rosary8Test extends TestCase
      */
     public function fruitsProvider(): array
     {
-        $fruits = Yaml::parseFile('C:\xampp\htdocs\Rosary\tests\GloriousRosary.yaml')['fruits'];
+        $fruits = Yaml::parseFile('C:\xampp\htdocs\Rosary\tests\src\GloriousRosary.yaml')['fruits'];
         return [[$fruits]];
     }
 
     /**
      * Provides data to the getRosary test methods.
-     * Change line separators to LF - Unix and OS X (\n) and then run this test.
      * @return array
      * @see GloriousRosaryTest::testGetRosaryPrayer()
      */
     public function rosaryProvider(): array
     {
-        $rosaryPrayer = Yaml::parseFile('C:\xampp\htdocs\Rosary\tests\GloriousRosary.yaml')['rosaryPrayer'];
+        $rosaryPrayer = Yaml::parseFile('C:\xampp\htdocs\Rosary\tests\src\GloriousRosary.yaml')['rosaryPrayer'];
         return [[$rosaryPrayer]];
     }
 

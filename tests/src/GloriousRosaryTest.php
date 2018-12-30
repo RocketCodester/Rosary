@@ -1,12 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Rosary\tests;
+namespace RosaryApp\Src;
 
 use PHPUnit\Framework\TestCase;
 use Monolog\Logger;
 use Symfony\Component\Yaml\Yaml;
-use Rosary\src\GloriousRosary;
 
 /**
  * Class GloriousRosaryTest
@@ -126,7 +125,7 @@ class GloriousRosaryTest extends TestCase
      */
     public function mysteriesProvider(): array
     {
-        $mysteries = Yaml::parseFile('C:\xampp\htdocs\Rosary\tests\GloriousRosary.yaml')['mysteries'];
+        $mysteries = Yaml::parseFile('C:\xampp\htdocs\Rosary\tests\src\GloriousRosary.yaml')['mysteries'];
         return [[$mysteries]];
     }
 
@@ -137,7 +136,7 @@ class GloriousRosaryTest extends TestCase
      */
     public function fruitsProvider(): array
     {
-        $fruits = Yaml::parseFile('C:\xampp\htdocs\Rosary\tests\GloriousRosary.yaml')['fruits'];
+        $fruits = Yaml::parseFile('C:\xampp\htdocs\Rosary\tests\src\GloriousRosary.yaml')['fruits'];
         return [[$fruits]];
     }
 
@@ -148,7 +147,7 @@ class GloriousRosaryTest extends TestCase
      */
     public function rosaryProvider(): array
     {
-        $rosaryPrayer = Yaml::parseFile('C:\xampp\htdocs\Rosary\tests\GloriousRosary.yaml')['rosaryPrayer'];
+        $rosaryPrayer = Yaml::parseFile('C:\xampp\htdocs\Rosary\tests\src\GloriousRosary.yaml')['rosaryPrayer'];
         return [[$rosaryPrayer]];
     }
 }

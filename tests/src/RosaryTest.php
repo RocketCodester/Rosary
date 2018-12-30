@@ -1,11 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Rosary\tests;
+namespace RosaryApp\Src;
 
 use PHPUnit\Framework\TestCase;
 use Monolog\Logger;
-use Rosary\src\Rosary;
 
 /**
  * Class RosaryTest
