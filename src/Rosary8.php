@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Rosary;
+namespace Rosary\src;
 use Symfony\Component\Yaml\Yaml;
 use Monolog\Logger;
 
-require "vendor/autoload.php";
-require_once("MysteryType.php");
+//require 'C:\xampp\htdocs\Rosary\vendor\autoload.php';
+require_once "MysteryType.php";
 
 class Rosary8
 {
@@ -78,7 +78,7 @@ class Rosary8
      */
     function setRosaryData(): void
     {
-        $this->rosary = Yaml::parseFile('rosary8.yaml');
+        $this->rosary = Yaml::parseFile('C:\xampp\htdocs\Rosary\tests\rosary8.yaml');
     }
 
     /**

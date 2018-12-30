@@ -1,12 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Rosary;
+namespace Rosary\tests;
 
 use PHPUnit\Framework\TestCase;
 use Monolog\Logger;
 use Symfony\Component\Yaml\Yaml;
-require_once "C:\\xampp\htdocs\Rosary\GloriousRosary.php";
+require 'C:\xampp\htdocs\Rosary\vendor\autoload.php';
+use Rosary\src\GloriousRosary;
+
+require 'C:\xampp\htdocs\Rosary\tests\GloriousRosary.yaml';
 
 /**
  * Class GloriousRosaryTest
@@ -26,6 +29,7 @@ class GloriousRosaryTest extends TestCase
      * {@inheritdoc}
      * @return void
      */
+
     public function setup(): void
     {
         $this->logger = $this->getMockBuilder(Logger::class)->disableOriginalConstructor()->getMock();
@@ -130,7 +134,7 @@ class GloriousRosaryTest extends TestCase
      */
     public function mysteriesProvider(): array
     {
-        $mysteries = Yaml::parseFile('GloriousRosary.yaml')['mysteries'];
+        $mysteries = Yaml::parseFile('C:\xampp\htdocs\Rosary\tests\GloriousRosary.yaml')['mysteries'];
         return [[$mysteries]];
     }
 
@@ -141,7 +145,7 @@ class GloriousRosaryTest extends TestCase
      */
     public function fruitsProvider(): array
     {
-        $fruits = Yaml::parseFile('GloriousRosary.yaml')['fruits'];
+        $fruits = Yaml::parseFile('C:\xampp\htdocs\Rosary\tests\GloriousRosary.yaml')['fruits'];
         return [[$fruits]];
     }
 
@@ -152,7 +156,18 @@ class GloriousRosaryTest extends TestCase
      */
     public function rosaryProvider(): array
     {
-        $rosaryPrayer = Yaml::parseFile('GloriousRosary.yaml')['rosaryPrayer'];
+        $rosaryPrayer = Yaml::parseFile('C:\xampp\htdocs\Rosary\tests\GloriousRosary.yaml')['rosaryPrayer'];
         return [[$rosaryPrayer]];
     }
 }
+
+//// my custom autoloader
+//function my_autoloader($class) {
+//    include 'tests/' . $class . '.php';
+//}
+//
+//// register the autoloader
+//spl_autoload_register('my_autoloader');
+//
+//// load A class
+//$a = new A();

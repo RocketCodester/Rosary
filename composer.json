@@ -1,8 +1,8 @@
 {
     "autoload": {
-        "classmap": [
-            ""
-        ]
+        "psr-4": {
+            "Rosary\\src\\":"src/"
+        }
     },
     "autoload-dev":{
         "psr-0":{

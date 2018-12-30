@@ -2,41 +2,42 @@
 
 declare(strict_types=1);
 
-namespace Rosary;
+namespace Rosary\src;
+
 use Monolog\Logger;
 
-require "vendor/autoload.php";
+//require "vendor/autoload.php";
 require_once("MysteryType.php");
 
 /**
- * Class SorrowfulRosary
+ * Class CurrentRosary
  * @package Rosary
  */
-class SorrowfulRosary extends Rosary
+class CurrentRosary extends Rosary
 {
     /**
      * @var string
      */
-    protected $mysteryType = 'sorrowful';
+    protected $mysteryType = '';
     /**
      * @var array
      */
     protected $mysteries = [
-        "Agony in the Garden",
-        "Scourging at the Pillar",
-        "Crowning with Thorns",
-        "Carrying of the Cross",
-        "Crucifixion",
+        "Resurrection",
+        "Ascension",
+        "Descent of the Holy Ghost upon the apostles and disciples",
+        "Assumption",
+        "Coronation of Mary as Queen of heaven and earth",
     ];
     /**
      * @var array
      */
     protected $fruits = [
-        'contrition (or sorrow) for sin',
-        'purity',
-        'courage',
-        'patience',
-        "perseverance",
+        'faith',
+        'hope',
+        'love of God',
+        'grace of a happy death',
+        "trust in Mary's intercession",
     ];
     /**
      * @var Logger
@@ -44,13 +45,14 @@ class SorrowfulRosary extends Rosary
     private $logger;
 
     /**
-     * SorrowfulRosary constructor.
+     * CurrentRosary constructor.
      * @param Logger $logger
      */
     function __construct(Logger $logger)
     {
         parent::__construct($logger);
         $this->logger = $logger;
+        $this::getCurrentDateMysteryType();
         $logger->info(__CLASS__ . " constructor was called\n");
     }
     /**
@@ -59,11 +61,11 @@ class SorrowfulRosary extends Rosary
      */
     function __toString(): string
     {
-        return 'SorrowfulRosary';
+        return 'CurrentRosary';
     }
 }
 
 $logger = new Logger('rosary_app');
-$sorrowfulRosary = new SorrowfulRosary($logger);
-$sorrowfulRosary->setRosaryPrayer();
-echo $sorrowfulRosary->getRosaryPrayer();
+$currentRosary = new CurrentRosary($logger);
+$currentRosary->setRosaryPrayer();
+echo $currentRosary->getRosaryPrayer();

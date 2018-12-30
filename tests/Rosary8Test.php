@@ -1,11 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Rosary;
+namespace Rosary\tests;
 
 use PHPUnit\Framework\TestCase;
 use Monolog\Logger;
 use Symfony\Component\Yaml\Yaml;
+use Rosary\src\Rosary8;
+use Rosary\src\MysteryType;
+//require 'C:\xampp\htdocs\Rosary\vendor\autoload.php';
 
 /**
  * Class Rosary8Test
@@ -193,7 +196,7 @@ class Rosary8Test extends TestCase
      */
     public function mysteriesProvider(): array
     {
-        $mysteries = Yaml::parseFile('GloriousRosary.yaml')['mysteries'];
+        $mysteries = Yaml::parseFile('C:\xampp\htdocs\Rosary\tests\GloriousRosary.yaml')['mysteries'];
         return [[$mysteries]];
     }
 
@@ -204,7 +207,7 @@ class Rosary8Test extends TestCase
      */
     public function fruitsProvider(): array
     {
-        $fruits = Yaml::parseFile('GloriousRosary.yaml')['fruits'];
+        $fruits = Yaml::parseFile('C:\xampp\htdocs\Rosary\tests\GloriousRosary.yaml')['fruits'];
         return [[$fruits]];
     }
 
@@ -216,7 +219,7 @@ class Rosary8Test extends TestCase
      */
     public function rosaryProvider(): array
     {
-        $rosaryPrayer = Yaml::parseFile('GloriousRosary.yaml')['rosaryPrayer'];
+        $rosaryPrayer = Yaml::parseFile('C:\xampp\htdocs\Rosary\tests\GloriousRosary.yaml')['rosaryPrayer'];
         return [[$rosaryPrayer]];
     }
 

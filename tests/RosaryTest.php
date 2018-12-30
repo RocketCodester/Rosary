@@ -1,10 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Rosary;
+namespace Rosary\tests;
 
 use PHPUnit\Framework\TestCase;
 use Monolog\Logger;
+use Rosary\src\Rosary;
+//require 'C:\xampp\htdocs\Rosary\vendor\autoload.php';
 
 /**
  * Class RosaryTest

@@ -2,41 +2,41 @@
 
 declare(strict_types=1);
 
-namespace Rosary;
+namespace Rosary\src;
 use Monolog\Logger;
 
-require "vendor/autoload.php";
+//require "vendor/autoload.php";
 require_once("MysteryType.php");
 
 /**
- * Class GloriousRosary
+ * Class SorrowfulRosary
  * @package Rosary
  */
-class GloriousRosary extends Rosary
+class SorrowfulRosary extends Rosary
 {
     /**
      * @var string
      */
-    protected $mysteryType = 'glorious';
+    protected $mysteryType = 'sorrowful';
     /**
      * @var array
      */
     protected $mysteries = [
-        "Resurrection",
-        "Ascension",
-        "Descent of the Holy Ghost upon the apostles and disciples",
-        "Assumption",
-        "Coronation of Mary as Queen of heaven and earth",
+        "Agony in the Garden",
+        "Scourging at the Pillar",
+        "Crowning with Thorns",
+        "Carrying of the Cross",
+        "Crucifixion",
     ];
     /**
      * @var array
      */
     protected $fruits = [
-        'faith',
-        'hope',
-        'love of God',
-        'grace of a happy death',
-        "trust in Mary's intercession",
+        'contrition (or sorrow) for sin',
+        'purity',
+        'courage',
+        'patience',
+        "perseverance",
     ];
     /**
      * @var Logger
@@ -44,7 +44,7 @@ class GloriousRosary extends Rosary
     private $logger;
 
     /**
-     * GloriousRosary constructor.
+     * SorrowfulRosary constructor.
      * @param Logger $logger
      */
     function __construct(Logger $logger)
@@ -59,12 +59,11 @@ class GloriousRosary extends Rosary
      */
     function __toString(): string
     {
-        return 'GloriousRosary';
+        return 'SorrowfulRosary';
     }
 }
 
-
 $logger = new Logger('rosary_app');
-$gloriousRosary = new GloriousRosary($logger);
-$gloriousRosary->setRosaryPrayer();
-echo $gloriousRosary->getRosaryPrayer();
+$sorrowfulRosary = new SorrowfulRosary($logger);
+$sorrowfulRosary->setRosaryPrayer();
+echo $sorrowfulRosary->getRosaryPrayer();

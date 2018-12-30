@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Rosary;
+namespace Rosary\src;
 use Monolog\Logger;
 
-require "vendor/autoload.php";
+//require 'C:\xampp\htdocs\Rosary\vendor\autoload.php';
 require_once("MysteryType.php");
 
 /**
