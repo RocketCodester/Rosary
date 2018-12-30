@@ -6,7 +6,6 @@ namespace Rosary\tests;
 use PHPUnit\Framework\TestCase;
 use Monolog\Logger;
 use Rosary\src\Rosary;
-//require 'C:\xampp\htdocs\Rosary\vendor\autoload.php';
 
 /**
  * Class RosaryTest

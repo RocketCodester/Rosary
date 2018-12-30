@@ -8,7 +8,6 @@ use Monolog\Logger;
 use Symfony\Component\Yaml\Yaml;
 use Rosary\src\Rosary8;
 use Rosary\src\MysteryType;
-//require 'C:\xampp\htdocs\Rosary\vendor\autoload.php';
 
 /**
  * Class Rosary8Test

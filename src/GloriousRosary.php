@@ -3,11 +3,10 @@
 declare(strict_types=1);
 
 namespace Rosary\src;
+
 use Monolog\Logger;
 
-//require "vendor/autoload.php";
 require_once("MysteryType.php");
-//require 'C:\xampp\htdocs\Rosary\vendor\autoload.php';
 
 /**
  * Class GloriousRosary
@@ -63,9 +62,3 @@ class GloriousRosary extends Rosary
         return 'GloriousRosary';
     }
 }
-
-
-$logger = new Logger('rosary_app');
-$gloriousRosary = new GloriousRosary($logger);
-$gloriousRosary->setRosaryPrayer();
-echo $gloriousRosary->getRosaryPrayer();

@@ -6,7 +6,6 @@ namespace Rosary\src;
 use Symfony\Component\Yaml\Yaml;
 use Monolog\Logger;
 
-//require 'C:\xampp\htdocs\Rosary\vendor\autoload.php';
 require_once "MysteryType.php";
 
 class Rosary8
@@ -163,7 +162,3 @@ class Rosary8
         return 'Rosary8';
     }
 }
-$logger = new Logger('rosary_app');
-$weekday = new Weekday($logger);
-$mysteryType = new MysteryType($weekday, $logger);
-$rosary = new Rosary8($mysteryType, $logger);

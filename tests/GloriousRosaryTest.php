@@ -6,10 +6,7 @@ namespace Rosary\tests;
 use PHPUnit\Framework\TestCase;
 use Monolog\Logger;
 use Symfony\Component\Yaml\Yaml;
-require 'C:\xampp\htdocs\Rosary\vendor\autoload.php';
 use Rosary\src\GloriousRosary;
-
-require 'C:\xampp\htdocs\Rosary\tests\GloriousRosary.yaml';
 
 /**
  * Class GloriousRosaryTest
@@ -22,19 +19,14 @@ class GloriousRosaryTest extends TestCase
      */
     private $gloriousRosary;
     /**
-     * @var Logger
-     */
-    private $logger;
-    /**
      * {@inheritdoc}
      * @return void
      */
-
     public function setup(): void
     {
-        $this->logger = $this->getMockBuilder(Logger::class)->disableOriginalConstructor()->getMock();
+        $logger = $this->getMockBuilder(Logger::class)->disableOriginalConstructor()->getMock();
 
-        $this->gloriousRosary = new GloriousRosary($this->logger);
+        $this->gloriousRosary = new GloriousRosary($logger);
     }
 
     /**
@@ -160,14 +152,3 @@ class GloriousRosaryTest extends TestCase
         return [[$rosaryPrayer]];
     }
 }
-
-//// my custom autoloader
-//function my_autoloader($class) {
-//    include 'tests/' . $class . '.php';
-//}
-//
-//// register the autoloader
-//spl_autoload_register('my_autoloader');
-//
-//// load A class
-//$a = new A();
