@@ -2,39 +2,39 @@
 
 declare(strict_types=1);
 
-namespace RosaryApp\Src;
+namespace Rosary;
 
 use Monolog\Logger;
 
 /**
- * Class GloriousRosary
+ * Class JoyfulRosary
  * @package Rosary
  */
-class LuminousRosary extends Rosary
+class JoyfulRosary extends Rosary
 {
     /**
      * @var string
      */
-    protected $mysteryType = 'luminous';
+    protected $mysteryType = 'joyful';
     /**
      * @var array
      */
     protected $mysteries = [
-        "Baptism of Jesus",
-        "Wedding at Cana",
-        "Jesus' proclamation of the Kingdom of God",
-        "Transfiguration",
-        "Institution of the Eucharist",
+        "Annunciation",
+        "Visitation",
+        "Nativity",
+        "Presentation",
+        "Finding of the child, Jesus, in the Temple",
     ];
     /**
      * @var array
      */
     protected $fruits = [
-        'openness to the Holy Spirit',
-        'to Jesus through Mary',
-        'repentance and Trust in God',
-        'desire for Holiness',
-        "adoration",
+        'humility',
+        'love of neighbor',
+        'poverty',
+        'obedience',
+        "joy in finding Jesus",
     ];
     /**
      * @var Logger
@@ -42,7 +42,7 @@ class LuminousRosary extends Rosary
     private $logger;
 
     /**
-     * LuminousRosary constructor.
+     * JoyfulRosary constructor.
      * @param Logger $logger
      */
     function __construct(Logger $logger)
@@ -57,12 +57,11 @@ class LuminousRosary extends Rosary
      */
     function __toString(): string
     {
-        return 'LuminousRosary';
+        return 'JoyfulRosary';
     }
 }
 
-
 $logger = new Logger('rosary_app');
-$luminousRosary = new LuminousRosary($logger);
-$luminousRosary->setRosaryPrayer();
-echo $luminousRosary->getRosaryPrayer();
+$joyfulRosary = new JoyfulRosary($logger);
+$joyfulRosary->setRosaryPrayer();
+echo $joyfulRosary->getRosaryPrayer();

@@ -2,11 +2,15 @@
 
 declare(strict_types=1);
 
-namespace RosaryApp\Src;
+namespace Rosary;
 
 use Symfony\Component\Yaml\Yaml;
 use Monolog\Logger;
 
+/**
+ * Class Rosary8
+ * @package Rosary
+ */
 class Rosary8
 {
     /**
@@ -76,7 +80,7 @@ class Rosary8
      */
     function setRosaryData(): void
     {
-        $this->rosary = Yaml::parseFile('C:\xampp\htdocs\Rosary\tests\src\rosary8.yaml');
+        $this->rosary = Yaml::parseFile('C:\xampp\htdocs\Rosary\tests\unit\core\src\rosaries\rosary8.yaml');
     }
 
     /**

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace RosaryApp\Src;
+namespace Rosary;
 
 use PHPUnit\Framework\TestCase;
 use Monolog\Logger;

@@ -1,12 +1,13 @@
 {
     "autoload": {
         "psr-4": {
-            "RosaryApp\\Src\\":"src/"
+            "Rosary\\":"core/src/rosaries",
+            "Support\\" : "."
         }
     },
     "autoload-dev":{
-        "psr-0":{
-            "RosaryApp\\Src\\":"tests/"
+        "psr-4":{
+            "RosaryApp\\Tests\\":"tests/"
         }
     },
     "require": {

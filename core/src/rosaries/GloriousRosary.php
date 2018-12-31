@@ -2,39 +2,39 @@
 
 declare(strict_types=1);
 
-namespace RosaryApp\Src;
+namespace Rosary;
 
 use Monolog\Logger;
 
 /**
- * Class SorrowfulRosary
+ * Class GloriousRosary
  * @package Rosary
  */
-class SorrowfulRosary extends Rosary
+class GloriousRosary extends Rosary
 {
     /**
      * @var string
      */
-    protected $mysteryType = 'sorrowful';
+    protected $mysteryType = 'glorious';
     /**
      * @var array
      */
     protected $mysteries = [
-        "Agony in the Garden",
-        "Scourging at the Pillar",
-        "Crowning with Thorns",
-        "Carrying of the Cross",
-        "Crucifixion",
+        "Resurrection",
+        "Ascension",
+        "Descent of the Holy Ghost upon the apostles and disciples",
+        "Assumption",
+        "Coronation of Mary as Queen of heaven and earth",
     ];
     /**
      * @var array
      */
     protected $fruits = [
-        'contrition (or sorrow) for sin',
-        'purity',
-        'courage',
-        'patience',
-        "perseverance",
+        'faith',
+        'hope',
+        'love of God',
+        'grace of a happy death',
+        "trust in Mary's intercession",
     ];
     /**
      * @var Logger
@@ -42,7 +42,7 @@ class SorrowfulRosary extends Rosary
     private $logger;
 
     /**
-     * SorrowfulRosary constructor.
+     * GloriousRosary constructor.
      * @param Logger $logger
      */
     function __construct(Logger $logger)
@@ -57,11 +57,6 @@ class SorrowfulRosary extends Rosary
      */
     function __toString(): string
     {
-        return 'SorrowfulRosary';
+        return 'GloriousRosary';
     }
 }
-
-$logger = new Logger('rosary_app');
-$sorrowfulRosary = new SorrowfulRosary($logger);
-$sorrowfulRosary->setRosaryPrayer();
-echo $sorrowfulRosary->getRosaryPrayer();

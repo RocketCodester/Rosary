@@ -2,39 +2,39 @@
 
 declare(strict_types=1);
 
-namespace RosaryApp\Src;
+namespace Rosary;
 
 use Monolog\Logger;
 
 /**
- * Class JoyfulRosary
+ * Class CurrentRosary
  * @package Rosary
  */
-class JoyfulRosary extends Rosary
+class CurrentRosary extends Rosary
 {
     /**
      * @var string
      */
-    protected $mysteryType = 'joyful';
+    protected $mysteryType = '';
     /**
      * @var array
      */
     protected $mysteries = [
-        "Annunciation",
-        "Visitation",
-        "Nativity",
-        "Presentation",
-        "Finding of the child, Jesus, in the Temple",
+        "Resurrection",
+        "Ascension",
+        "Descent of the Holy Ghost upon the apostles and disciples",
+        "Assumption",
+        "Coronation of Mary as Queen of heaven and earth",
     ];
     /**
      * @var array
      */
     protected $fruits = [
-        'humility',
-        'love of neighbor',
-        'poverty',
-        'obedience',
-        "joy in finding Jesus",
+        'faith',
+        'hope',
+        'love of God',
+        'grace of a happy death',
+        "trust in Mary's intercession",
     ];
     /**
      * @var Logger
@@ -42,13 +42,14 @@ class JoyfulRosary extends Rosary
     private $logger;
 
     /**
-     * JoyfulRosary constructor.
+     * CurrentRosary constructor.
      * @param Logger $logger
      */
     function __construct(Logger $logger)
     {
         parent::__construct($logger);
         $this->logger = $logger;
+        $this::getCurrentDateMysteryType();
         $logger->info(__CLASS__ . " constructor was called\n");
     }
     /**
@@ -57,11 +58,11 @@ class JoyfulRosary extends Rosary
      */
     function __toString(): string
     {
-        return 'JoyfulRosary';
+        return 'CurrentRosary';
     }
 }
 
 $logger = new Logger('rosary_app');
-$joyfulRosary = new JoyfulRosary($logger);
-$joyfulRosary->setRosaryPrayer();
-echo $joyfulRosary->getRosaryPrayer();
+$currentRosary = new CurrentRosary($logger);
+$currentRosary->setRosaryPrayer();
+echo $currentRosary->getRosaryPrayer();

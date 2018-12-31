@@ -2,7 +2,8 @@
 
 declare(strict_types=1);
 
-namespace RosaryApp\Src;
+namespace Rosary;
+
 use Monolog\Logger;
 
 /**
