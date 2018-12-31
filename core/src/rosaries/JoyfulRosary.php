@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rosary;
+namespace MyRosary;
 
 use Monolog\Logger;
 
@@ -60,8 +60,3 @@ class JoyfulRosary extends Rosary
         return 'JoyfulRosary';
     }
 }
-
-$logger = new Logger('rosary_app');
-$joyfulRosary = new JoyfulRosary($logger);
-$joyfulRosary->setRosaryPrayer();
-echo $joyfulRosary->getRosaryPrayer();

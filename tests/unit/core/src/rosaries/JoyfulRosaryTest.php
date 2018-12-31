@@ -8,15 +8,15 @@ use Monolog\Logger;
 use Symfony\Component\Yaml\Yaml;
 
 /**
- * Class GloriousRosaryTest
- * @package GloriousRosary
+ * Class JoyfulRosaryTest
+ * @package JoyfulRosary
  */
-class GloriousRosaryTest extends TestCase
+class JoyfulRosaryTest extends TestCase
 {
     /**
-     * @var GloriousRosary
+     * @var JoyfulRosary
      */
-    private $gloriousRosary;
+    private $joyfulRosary;
     /**
      * {@inheritdoc}
      * @return void
@@ -24,18 +24,18 @@ class GloriousRosaryTest extends TestCase
     public function setup(): void
     {
         $logger = $this->getMockBuilder(Logger::class)->disableOriginalConstructor()->getMock();
-        $this->gloriousRosary = new GloriousRosary($logger);
+        $this->joyfulRosary = new JoyfulRosary($logger);
     }
 
     /**
-     * Tests the GloriousRosary constructor.
-     * @see GloriousRosary::__construct()
+     * Tests the JoyfulRosary constructor.
+     * @see JoyfulRosary::__construct()
      * @throws \Exception
      * @return void
      */
     public function testConstruct(): void
     {
-        $this->assertInstanceOf(GloriousRosary::class, $this->gloriousRosary);
+        $this->assertInstanceOf(JoyfulRosary::class, $this->joyfulRosary);
     }
 
     /**
@@ -48,7 +48,7 @@ class GloriousRosaryTest extends TestCase
      */
     public function testGetMysteries(array $expectedMysteries): void
     {
-        $this->assertEquals($expectedMysteries, $this->gloriousRosary->getMysteries());
+        $this->assertEquals($expectedMysteries, $this->joyfulRosary->getMysteries());
     }
 
     /**
@@ -61,8 +61,8 @@ class GloriousRosaryTest extends TestCase
      */
     public function testSetMysteries(array $expectedMysteries): void
     {
-        $this->gloriousRosary->setMysteries($expectedMysteries);
-        $this->assertEquals($expectedMysteries, $this->gloriousRosary->getMysteries());
+        $this->joyfulRosary->setMysteries($expectedMysteries);
+        $this->assertEquals($expectedMysteries, $this->joyfulRosary->getMysteries());
     }
 
     /**
@@ -75,7 +75,7 @@ class GloriousRosaryTest extends TestCase
      */
     public function testGetFruits(array $expectedFruits): void
     {
-        $this->assertEquals($expectedFruits, $this->gloriousRosary->getFruits());
+        $this->assertEquals($expectedFruits, $this->joyfulRosary->getFruits());
     }
 
     /**
@@ -88,8 +88,8 @@ class GloriousRosaryTest extends TestCase
      */
     public function testSetFruits(array $expectedFruits): void
     {
-        $this->gloriousRosary->setFruits($expectedFruits);
-        $this->assertEquals($expectedFruits, $this->gloriousRosary->getFruits());
+        $this->joyfulRosary->setFruits($expectedFruits);
+        $this->assertEquals($expectedFruits, $this->joyfulRosary->getFruits());
     }
 
     /**
@@ -102,8 +102,8 @@ class GloriousRosaryTest extends TestCase
      */
     public function testGetRosaryPrayer(string $expectedRosaryPrayer): void
     {
-        $this->gloriousRosary->setRosaryPrayer();
-        $this->assertEquals($expectedRosaryPrayer, $this->gloriousRosary->getRosaryPrayer());
+        $this->joyfulRosary->setRosaryPrayer();
+        $this->assertEquals($expectedRosaryPrayer, $this->joyfulRosary->getRosaryPrayer());
     }
 
     /**
@@ -114,39 +114,39 @@ class GloriousRosaryTest extends TestCase
      */
     public function testToString(): void
     {
-        $this->assertEquals('GloriousRosary', $this->gloriousRosary->__toString());
+        $this->assertEquals('JoyfulRosary', $this->joyfulRosary->__toString());
     }
 
     /**
      * Provides data to the setMysteries and getMysteries test methods.
      * @return array
-     * @see GloriousRosaryTest::testGetMysteries()
+     * @see JoyfulRosaryTest::testGetMysteries()
      */
     public function mysteriesProvider(): array
     {
-        $mysteries = Yaml::parseFile(__DIR__ . '\GloriousRosary.yaml')['mysteries'];
+        $mysteries = Yaml::parseFile(__DIR__ . '\JoyfulRosary.yaml')['mysteries'];
         return [[$mysteries]];
     }
 
     /**
      * Provides data to the setFruits and getFruits test methods.
      * @return array
-     * @see GloriousRosaryTest::testGetFruits()
+     * @see JoyfulRosaryTest::testGetFruits()
      */
     public function fruitsProvider(): array
     {
-        $fruits = Yaml::parseFile(__DIR__ . '\GloriousRosary.yaml')['fruits'];
+        $fruits = Yaml::parseFile(__DIR__ . '\JoyfulRosary.yaml')['fruits'];
         return [[$fruits]];
     }
 
     /**
      * Provides data to the getRosaryPrayer test method.
      * @return array
-     * @see GloriousRosaryTest::testGetRosaryPrayer()
+     * @see JoyfulRosaryTest::testGetRosaryPrayer()
      */
     public function rosaryProvider(): array
     {
-        $rosaryPrayer = Yaml::parseFile(__DIR__ . '\GloriousRosary.yaml')['rosaryPrayer'];
+        $rosaryPrayer = Yaml::parseFile(__DIR__ . '\JoyfulRosary.yaml')['rosaryPrayer'];
         return [[$rosaryPrayer]];
     }
 }

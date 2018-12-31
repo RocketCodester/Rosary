@@ -1,7 +1,10 @@
 {
+    "config": {
+        "vendor-dir": "../vendor"
+    },
     "autoload": {
         "psr-4": {
-            "Rosary\\":"core/src/rosaries",
+            "MyRosary\\":"core/src/rosaries",
             "Support\\" : "."
         }
     },

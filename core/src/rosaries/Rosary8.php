@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rosary;
+namespace MyRosary;
 
 use Symfony\Component\Yaml\Yaml;
 use Monolog\Logger;
