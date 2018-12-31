@@ -6,6 +6,8 @@ namespace MyRosary;
 
 use Monolog\Logger;
 
+require '../../../vendor/autoload.php';
+
 /**
  * Class CurrentRosary
  * @package Rosary
@@ -19,23 +21,11 @@ class CurrentRosary extends Rosary
     /**
      * @var array
      */
-    protected $mysteries = [
-        "Resurrection",
-        "Ascension",
-        "Descent of the Holy Ghost upon the apostles and disciples",
-        "Assumption",
-        "Coronation of Mary as Queen of heaven and earth",
-    ];
+    protected $mysteries = [];
     /**
      * @var array
      */
-    protected $fruits = [
-        'faith',
-        'hope',
-        'love of God',
-        'grace of a happy death',
-        "trust in Mary's intercession",
-    ];
+    protected $fruits = [];
     /**
      * @var Logger
      */
@@ -49,7 +39,7 @@ class CurrentRosary extends Rosary
     {
         parent::__construct($logger);
         $this->logger = $logger;
-        $this::getCurrentDateMysteryType();
+        $this->mysteryType = $this::getCurrentDateMysteryType();
         $logger->info(__CLASS__ . " constructor was called\n");
     }
     /**
@@ -64,5 +54,7 @@ class CurrentRosary extends Rosary
 
 $logger = new Logger('rosary_app');
 $currentRosary = new CurrentRosary($logger);
+$currentRosary->setMysteries([1,2,3,4,5]);
+$currentRosary->setFruits([1,2,3,4,5]);
 $currentRosary->setRosaryPrayer();
 echo $currentRosary->getRosaryPrayer();
