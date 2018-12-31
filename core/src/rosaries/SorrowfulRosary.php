@@ -60,8 +60,3 @@ class SorrowfulRosary extends Rosary
         return 'SorrowfulRosary';
     }
 }
-
-$logger = new Logger('rosary_app');
-$sorrowfulRosary = new SorrowfulRosary($logger);
-$sorrowfulRosary->setRosaryPrayer();
-echo $sorrowfulRosary->getRosaryPrayer();
