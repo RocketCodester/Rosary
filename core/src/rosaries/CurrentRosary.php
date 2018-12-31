@@ -39,7 +39,8 @@ class CurrentRosary extends Rosary
     {
         parent::__construct($logger);
         $this->logger = $logger;
-        $this->mysteryType = $this::getCurrentDateMysteryType();
+//        $this->mysteryType = $this::getCurrentDateMysteryType();
+        $this->mysteryType = $this->callStatic(CurrentRosary::class, 'getCurrentDateMysteryType');
         $logger->info(__CLASS__ . " constructor was called\n");
     }
     /**

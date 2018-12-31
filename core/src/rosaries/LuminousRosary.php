@@ -65,4 +65,5 @@ class LuminousRosary extends Rosary
 $logger = new Logger('rosary_app');
 $luminousRosary = new LuminousRosary($logger);
 $luminousRosary->setRosaryPrayer();
-echo $luminousRosary->getRosaryPrayer();
+$a= $luminousRosary->getRosaryPrayer();
+echo $a;

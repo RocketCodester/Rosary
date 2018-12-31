@@ -6,6 +6,7 @@
 /var/
 /vendor/
 .idea
+composer.json.dist
 ###< symfony/framework-bundle ###
 
 ###> symfony/phpunit-bridge ###
