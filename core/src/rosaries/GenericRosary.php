@@ -9,10 +9,10 @@ use Monolog\Logger;
 require '../../../vendor/autoload.php';
 
 /**
- * Class CurrentRosary
+ * Class GenericRosary
  * @package Rosary
  */
-class CurrentRosary extends Rosary
+class GenericRosary extends Rosary
 {
     /**
      * @var string
@@ -32,15 +32,13 @@ class CurrentRosary extends Rosary
     private $logger;
 
     /**
-     * CurrentRosary constructor.
+     * GenericRosary constructor.
      * @param Logger $logger
      */
     function __construct(Logger $logger)
     {
         parent::__construct($logger);
         $this->logger = $logger;
-//        $this->mysteryType = $this::getCurrentDateMysteryType();
-        $this->mysteryType = $this->callStatic(CurrentRosary::class, 'getCurrentDateMysteryType');
         $logger->info(__CLASS__ . " constructor was called\n");
     }
     /**
@@ -49,13 +47,14 @@ class CurrentRosary extends Rosary
      */
     function __toString(): string
     {
-        return 'CurrentRosary';
+        return 'GenericRosary';
     }
 }
 
 $logger = new Logger('rosary_app');
-$currentRosary = new CurrentRosary($logger);
-$currentRosary->setMysteries([1,2,3,4,5]);
-$currentRosary->setFruits([1,2,3,4,5]);
-$currentRosary->setRosaryPrayer();
-echo $currentRosary->getRosaryPrayer();
+$genericRosary = new GenericRosary($logger);
+$genericRosary->setMysteryType(Rosary::getCurrentDateMysteryType());
+$genericRosary->setMysteries([1,2,3,4,5]);
+$genericRosary->setFruits([1,2,3,4,5]);
+$genericRosary->setRosaryPrayer();
+echo $genericRosary->getRosaryPrayer();
