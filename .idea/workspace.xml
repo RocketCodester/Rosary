@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad0f212c-44f1-47c6-b60e-866a1debe81e" name="Default Changelist" comment="">
+    <list default="true" id="3a4a3dc6-6b86-43d2-ad8e-fb77a390b730" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Rosary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Rosary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/rosaries/CurrentRosary.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/rosaries/CurrentRosary.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +16,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="CoverageDataManager">
@@ -42,49 +44,57 @@
     <SUITE FILE_PATH="coverage/Rosary$Rosary8Test_testGetMysteries.xml" NAME="Rosary8Test.testGetMysteries Coverage Results" MODIFIED="1546043971393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Rosary$GloriousRosaryTest.xml" NAME="GloriousRosaryTest Coverage Results" MODIFIED="1546228287530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Rosary$JoyfulRosaryTest.xml" NAME="JoyfulRosaryTest Coverage Results" MODIFIED="1546231504444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Rosary$tests.xml" NAME="tests Coverage Results" MODIFIED="1546267764873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Rosary$tests.xml" NAME="tests Coverage Results" MODIFIED="1546275423210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Rosary$GloriousRosaryTest_testSetFruits.xml" NAME="GloriousRosaryTest.testSetFruits Coverage Results" MODIFIED="1546132561954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Rosary$GloriousRosaryTest_testConstruct.xml" NAME="GloriousRosaryTest.testConstruct Coverage Results" MODIFIED="1546132389877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="331" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/unit/core/src/rosaries/SorrowfulRosaryTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            <state relative-caret-position="356">
+              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="399">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/services.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="727" selection-start-line="727" selection-end-line="727" />
+            <state relative-caret-position="459">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/bundles.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2363">
+              <caret line="139" column="10" selection-start-line="139" selection-start-column="10" selection-end-line="139" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -101,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/rosaries/CurrentRosary.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
+            <state relative-caret-position="833">
               <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
             </state>
           </provider>
@@ -110,17 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/rosaries/Rosary.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1480">
+            <state relative-caret-position="2465">
               <caret line="145" column="19" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Logger.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="636" selection-start-line="636" selection-end-line="636" />
             </state>
           </provider>
         </entry>
@@ -128,7 +129,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/rosaries/SorrowfulRosary.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
+            <state relative-caret-position="1037">
               <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
             </state>
           </provider>
@@ -138,74 +139,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>RosaryApp\tests</find>
-      <find>C:\xampp\htdocs\Rosary\tests\GloriousRosary.yaml</find>
-      <find>Yaml::du</find>
-      <find>RosaryApp</find>
-      <find>namespace RosaryApp</find>
-      <find>RosaryApp\Rosary8</find>
-      <find>RosaryApp\Rosary</find>
-      <find>RosaryApp\src\</find>
-      <find>namespace RosaryApp\src</find>
-      <find>\src</find>
-      <find>RosaryApp\src\src</find>
-      <find>rosary8.yaml</find>
-      <find>GloriousRosary.yaml</find>
-      <find>//</find>
-      <find>RosaryApp\src</find>
-      <find>symfony/y</find>
-      <find>__METH</find>
-      <find>Yaml::dump</find>
-      <find>.yaml</find>
-      <find>RosaryApp\Src</find>
-      <find>GloriousRosary</find>
-      <find>glorious</find>
-      <find>namespace Rosary</find>
-      <find>MyRosary</find>
-      <find>JoyfulRosary</find>
-      <find>Joyful</find>
-      <find>\r\n</find>
-      <find>getCurrentDateMysteryType</find>
-      <find>symfony/src/Symfony/Component/HttpKernel/Kernel.php</find>
-      <find>Kernel.php</find>
+      <find>phpun</find>
     </findStrings>
-    <replaceStrings>
-      <replace>$mysteryType</replace>
-      <replace>glorious</replace>
-      <replace>$logger</replace>
-      <replace>$joyfulRosary</replace>
-      <replace>$sorrowfulRosary</replace>
-      <replace>sorrowful</replace>
-      <replace>CurrentRosary</replace>
-      <replace>current</replace>
-      <replace>LuminousRosary</replace>
-      <replace>luminousRosary</replace>
-      <replace>luminou</replace>
-      <replace>rosary</replace>
-      <replace>GloriousRosaryTest</replace>
-      <replace>the GloriousRosary</replace>
-      <replace>$this-&gt;gloriousRosary</replace>
-      <replace>$yaml</replace>
-      <replace />
-      <replace>C:\xampp\htdocs\Rosary\tests\src\GloriousRosary.yaml</replace>
-      <replace>namespace RosaryApp\src</replace>
-      <replace>RosaryApp\src</replace>
-      <replace>RosaryApp\src\Rosary</replace>
-      <replace>namespace RosaryApp\Src</replace>
-      <replace>RosaryApp</replace>
-      <replace>Rosary</replace>
-      <replace>JoyfulRosary</replace>
-      <replace>namespace MyRosary</replace>
-      <replace>joyful</replace>
-      <replace>SorrowfulRosary</replace>
-      <replace>sorrowfulRosary</replace>
-      <replace>\n</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>C:\xampp\htdocs\Rosary</dir>
-      <dir>C:\xampp\htdocs\Rosary\core\src\rosaries</dir>
-      <dir>C:\xampp\htdocs\Rosary\tests\unit\core\src\rosaries</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -213,111 +148,77 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Rosary3.php" />
-        <option value="$PROJECT_DIR$/Rosary2.php" />
-        <option value="$PROJECT_DIR$/composer.lock" />
-        <option value="$PROJECT_DIR$/rosary.yaml" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/deprecated/Rosary.php" />
-        <option value="$PROJECT_DIR$/SorrowfulRosary.php" />
-        <option value="$PROJECT_DIR$/JoyfulRosary.php" />
-        <option value="$PROJECT_DIR$/LuminousRosary.php" />
-        <option value="$PROJECT_DIR$/CurrentRosary.php" />
-        <option value="$PROJECT_DIR$/Date.php" />
-        <option value="$PROJECT_DIR$/Weekday.php" />
-        <option value="$PROJECT_DIR$/MysteryType.php" />
-        <option value="$PROJECT_DIR$/GloriousRosary.php" />
-        <option value="$PROJECT_DIR$/RosaryTest.php" />
-        <option value="$PROJECT_DIR$/RosaryPrayer.yaml" />
-        <option value="$PROJECT_DIR$/GloriousRosary.yaml" />
-        <option value="$PROJECT_DIR$/Rosary.php" />
-        <option value="$PROJECT_DIR$/GloriousRosaryTest.php" />
-        <option value="$PROJECT_DIR$/Rosary8Test.php" />
-        <option value="$PROJECT_DIR$/Rosary8.php" />
-        <option value="$PROJECT_DIR$/src/rosary8.yaml" />
-        <option value="$PROJECT_DIR$/src/Weekday.php" />
-        <option value="$PROJECT_DIR$/tests/RosaryTest.php" />
-        <option value="$PROJECT_DIR$/deprecated/Rosary7.php" />
-        <option value="$PROJECT_DIR$/src/LuminousRosary.php" />
-        <option value="$PROJECT_DIR$/src/SorrowfulRosary.php" />
-        <option value="$PROJECT_DIR$/src/JoyfulRosary.php" />
-        <option value="$PROJECT_DIR$/src/MysteryType.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.php" />
-        <option value="$PROJECT_DIR$/tests/JoyfulRosaryTest.php" />
-        <option value="$PROJECT_DIR$/tests/Rosary8Test.php" />
-        <option value="$PROJECT_DIR$/tests/GloriousRosaryTest.php" />
-        <option value="$PROJECT_DIR$/src/CurrentRosary.php" />
-        <option value="$PROJECT_DIR$/src/GloriousRosary.php" />
-        <option value="$PROJECT_DIR$/tests/src/RosaryTest.php" />
-        <option value="$PROJECT_DIR$/src/Rosary.php" />
-        <option value="$PROJECT_DIR$/tests/src/Rosary8Test.php" />
-        <option value="$PROJECT_DIR$/tests/src/GloriousRosaryTest.php" />
-        <option value="$PROJECT_DIR$/src/Rosary8.php" />
-        <option value="$PROJECT_DIR$/core/src/rosaries/Rosary8.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/tests/unit/core/src/rosaries/JoyfulRosaryTest.php" />
-        <option value="$PROJECT_DIR$/tests/unit/core/src/rosaries/JoyfulRosary.yaml" />
-        <option value="$PROJECT_DIR$/core/src/rosaries/JoyfulRosary.php" />
-        <option value="$PROJECT_DIR$/tests/unit/core/src/rosaries/GloriousRosaryTest.php" />
-        <option value="$PROJECT_DIR$/core/src/rosaries/SorrowfulRosary.php" />
-        <option value="$PROJECT_DIR$/tests/unit/core/src/rosaries/SorrowfulRosary.yaml" />
-        <option value="$PROJECT_DIR$/tests/unit/core/src/rosaries/SorrowfulRosaryTest.php" />
-        <option value="$PROJECT_DIR$/core/src/rosaries/CurrentRosary.php" />
+        <option value="$PROJECT_DIR$/core/src/rosaries/Rosary.php" />
       </list>
     </option>
   </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
   <component name="PhpServers">
-    <servers />
+    <servers>
+      <server host="localhost" id="ad11be4d-2a54-43ab-bd81-a0312c6b8c6f" name="Localhost" />
+    </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
-      <path value="$PROJECT_DIR$/../vendor/sebastian/environment" />
-      <path value="$PROJECT_DIR$/../vendor/sebastian/comparator" />
-      <path value="$PROJECT_DIR$/../vendor/sebastian/global-state" />
-      <path value="$PROJECT_DIR$/../vendor/doctrine/instantiator" />
-      <path value="$PROJECT_DIR$/../vendor/theseer/tokenizer" />
-      <path value="$PROJECT_DIR$/../vendor/symfony/yaml" />
-      <path value="$PROJECT_DIR$/../vendor/symfony/phpunit-bridge" />
-      <path value="$PROJECT_DIR$/../vendor/symfony/polyfill-ctype" />
-      <path value="$PROJECT_DIR$/../vendor/phpunit/phpunit" />
-      <path value="$PROJECT_DIR$/../vendor/phpunit/php-code-coverage" />
-      <path value="$PROJECT_DIR$/../vendor/phpunit/phpunit-mock-objects" />
-      <path value="$PROJECT_DIR$/../vendor/phpunit/php-token-stream" />
-      <path value="$PROJECT_DIR$/../vendor/phpunit/php-text-template" />
-      <path value="$PROJECT_DIR$/../vendor/phpunit/php-timer" />
-      <path value="$PROJECT_DIR$/../vendor/phpunit/php-file-iterator" />
-      <path value="$PROJECT_DIR$/../vendor/phpspec/prophecy" />
-      <path value="$PROJECT_DIR$/../vendor/phar-io/version" />
-      <path value="$PROJECT_DIR$/../vendor/phar-io/manifest" />
-      <path value="$PROJECT_DIR$/../vendor/myclabs/deep-copy" />
-      <path value="$PROJECT_DIR$/../vendor/monolog/monolog" />
-      <path value="$PROJECT_DIR$/../vendor/psr/log" />
-      <path value="$PROJECT_DIR$/../vendor/composer" />
-      <path value="$PROJECT_DIR$/../vendor/phpdocumentor/reflection-common" />
-      <path value="$PROJECT_DIR$/../vendor/phpdocumentor/type-resolver" />
-      <path value="$PROJECT_DIR$/../vendor/phpdocumentor/reflection-docblock" />
-      <path value="$PROJECT_DIR$/../vendor/webmozart/assert" />
-      <path value="$PROJECT_DIR$/../vendor/sebastian/version" />
-      <path value="$PROJECT_DIR$/../vendor/sebastian/diff" />
-      <path value="$PROJECT_DIR$/../vendor/sebastian/code-unit-reverse-lookup" />
-      <path value="$PROJECT_DIR$/../vendor/sebastian/resource-operations" />
-      <path value="$PROJECT_DIR$/../vendor/sebastian/object-reflector" />
-      <path value="$PROJECT_DIR$/../vendor/sebastian/object-enumerator" />
-      <path value="$PROJECT_DIR$/../vendor/sebastian/recursion-context" />
-      <path value="$PROJECT_DIR$/../vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -330,8 +231,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="Rosary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rosary" type="462c0819:PsiDirectoryNode" />
+              <item name="RosaryOLD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RosaryOLD" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -341,18 +242,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Yaml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Rosary\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Rosary\tests" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -367,98 +259,30 @@
     </option>
   </component>
   <component name="RunManager" selected="PHPUnit.tests">
-    <configuration name="SorrowfulRosaryTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="MyRosary\SorrowfulRosaryTest" file="$PROJECT_DIR$/tests/unit/core/src/rosaries/SorrowfulRosaryTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
-    <configuration name="rosaries" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner directory="$PROJECT_DIR$/tests/unit/core/src/rosaries" />
+    <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
     <configuration name="tests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner directory="$PROJECT_DIR$/tests" />
       <method v="2" />
     </configuration>
-    <configuration name="CurrentRosary" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/CurrentRosary.php">
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/public/index.php">
       <method v="2" />
     </configuration>
-    <configuration name="CurrentRosary.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/core/src/rosaries/CurrentRosary.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="Date" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/Weekday.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="GloriousRosary" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/GloriousRosary.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="JoyfulRosary" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/JoyfulRosary.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="LuminousRosary" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/LuminousRosary.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="MysteryType" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/MysteryType.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="Rosary 2" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/Rosary2.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="Rosary 3" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/Rosary3.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="Rosary" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/Rosary.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="Rosary4" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/Rosary4.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="Rosary5" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/Rosary5.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="Rosary6" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/Rosary6.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="Rosary7" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/Rosary7.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="Rosary8" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/Rosary8.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="SorrowfulRosary" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/SorrowfulRosary.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="SorrowfulRosary.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/core/src/rosaries/SorrowfulRosary.php">
+    <configuration name="Index" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="Localhost" start_url="/Rosary/public/index.php">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHP Script.Date" />
-      <item itemvalue="PHP Script.MysteryType" />
-      <item itemvalue="PHP Script.Rosary 2" />
-      <item itemvalue="PHP Script.Rosary 3" />
-      <item itemvalue="PHP Script.Rosary4" />
-      <item itemvalue="PHP Script.Rosary5" />
-      <item itemvalue="PHP Script.Rosary6" />
-      <item itemvalue="PHP Script.Rosary7" />
-      <item itemvalue="PHP Script.Rosary8" />
-      <item itemvalue="PHP Script.Rosary" />
-      <item itemvalue="PHP Script.GloriousRosary" />
-      <item itemvalue="PHP Script.JoyfulRosary" />
-      <item itemvalue="PHP Script.SorrowfulRosary" />
-      <item itemvalue="PHP Script.LuminousRosary" />
-      <item itemvalue="PHP Script.CurrentRosary" />
-      <item itemvalue="PHPUnit.rosaries" />
-      <item itemvalue="PHP Script.SorrowfulRosary.php" />
-      <item itemvalue="PHPUnit.SorrowfulRosaryTest" />
+      <item itemvalue="PHP Script.index.php" />
+      <item itemvalue="PHP Web Page.Index" />
+      <item itemvalue="PHPUnit.phpunit.xml.dist" />
       <item itemvalue="PHPUnit.tests" />
-      <item itemvalue="PHP Script.CurrentRosary.php" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="PHPUnit.tests" />
-        <item itemvalue="PHPUnit.SorrowfulRosaryTest" />
-        <item itemvalue="PHP Script.CurrentRosary.php" />
-        <item itemvalue="PHP Script.SorrowfulRosary.php" />
-        <item itemvalue="PHPUnit.rosaries" />
+        <item itemvalue="PHP Script.index.php" />
       </list>
     </recent_temporary>
   </component>
@@ -467,196 +291,28 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ad0f212c-44f1-47c6-b60e-866a1debe81e" name="Default Changelist" comment="" />
-      <created>1545504222309</created>
+      <changelist id="3a4a3dc6-6b86-43d2-ad8e-fb77a390b730" name="Default Changelist" comment="" />
+      <created>1546270834042</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1545504222309</updated>
-      <workItem from="1545504223672" duration="15466000" />
-      <workItem from="1545531978315" duration="3775000" />
-      <workItem from="1546052374468" duration="309000" />
-      <workItem from="1546057079995" duration="30365000" />
-      <workItem from="1546140908424" duration="11028000" />
-      <workItem from="1546226885532" duration="11000" />
-      <workItem from="1546226925990" duration="9296000" />
+      <updated>1546270834042</updated>
+      <workItem from="1546270835546" duration="2191000" />
     </task>
-    <task id="LOCAL-00001" summary="Make an abstract rosary class and extend it.">
-      <created>1546108006111</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1546108006111</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Add tests for abstract rosary class">
-      <created>1546120723799</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1546120723799</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Add tests for abstract rosary class">
-      <created>1546120777910</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1546120777910</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Replace GloriousRosaryTest data providers with yaml file">
-      <created>1546133910680</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1546133910680</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Replace GloriousRosaryTest data providers with yaml file">
-      <created>1546134999635</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1546134999635</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Move the tests to their own folder">
-      <created>1546138575184</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1546138575185</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Move the RosaryFiles to the src directory">
-      <created>1546144186942</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1546144186942</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Cleanup">
-      <created>1546144668413</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1546144668413</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Cleanup">
-      <created>1546144923835</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1546144923835</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Remove unnecessary require statements">
-      <created>1546145859188</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1546145859188</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Change namespace name">
-      <created>1546147109391</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1546147109392</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Change namespace name">
-      <created>1546147225764</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1546147225764</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Change namespace name">
-      <created>1546147490265</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1546147490265</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Change namespace name">
-      <created>1546148737244</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1546148737244</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Change namespace name">
-      <created>1546149866879</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1546149866879</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Cleanup">
-      <created>1546228191153</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1546228191153</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Cleanup">
-      <created>1546228303229</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1546228303229</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Cleanup">
-      <created>1546229838187</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1546229838187</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Add JoyfulRosaryTest">
-      <created>1546231763278</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1546231763278</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Add SorrowfulRosary tests">
-      <created>1546232857225</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1546232857225</updated>
-    </task>
-    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="tests - 2018.12.30 at 23h 06m 50s.xml">
+    <history-entry file="tests - 2018.12.31 at 10h 48m 20s.xml">
       <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="SorrowfulRosaryTest - 2018.12.31 at 08h 29m 03s.xml">
-      <configuration name="SorrowfulRosaryTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="tests - 2018.12.31 at 10h 50m 40s.xml">
+      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="SorrowfulRosaryTest - 2018.12.31 at 08h 29m 53s.xml">
-      <configuration name="SorrowfulRosaryTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="SorrowfulRosaryTest - 2018.12.31 at 08h 29m 59s.xml">
-      <configuration name="SorrowfulRosaryTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="SorrowfulRosaryTest - 2018.12.31 at 08h 30m 57s.xml">
-      <configuration name="SorrowfulRosaryTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="SorrowfulRosaryTest - 2018.12.31 at 08h 31m 29s.xml">
-      <configuration name="SorrowfulRosaryTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="SorrowfulRosaryTest - 2018.12.31 at 08h 31m 54s.xml">
-      <configuration name="SorrowfulRosaryTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="SorrowfulRosaryTest - 2018.12.31 at 08h 31m 57s.xml">
-      <configuration name="SorrowfulRosaryTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="SorrowfulRosaryTest - 2018.12.31 at 08h 33m 26s.xml">
-      <configuration name="SorrowfulRosaryTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="tests - 2018.12.31 at 08h 49m 25s.xml">
+    <history-entry file="tests - 2018.12.31 at 10h 52m 15s.xml">
       <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88552000" />
+    <option name="totallyTimeSpent" value="2195000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -668,29 +324,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8129176" visible="true" weight="0.2746186" />
-      <window_info id="Structure" order="1" sideWeight="0.18708241" side_tool="true" weight="0.5595568" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.6463246" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6590604" weight="0.32142857" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.46308726" weight="0.3985294" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33035713" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4966443" weight="0.32941177" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49791956" weight="0.32794118" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.7630873" visible="true" weight="0.33035713" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3409396" side_tool="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32291666" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3295302" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.6809986" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8129176" visible="true" weight="0.16912752" />
@@ -719,365 +374,43 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Make an abstract rosary class and extend it." />
-    <MESSAGE value="Add tests for abstract rosary class" />
-    <MESSAGE value="Replace GloriousRosaryTest data providers with yaml file" />
-    <MESSAGE value="Move the tests to their own folder" />
-    <MESSAGE value="Move the RosaryFiles to the src directory" />
-    <MESSAGE value="Remove unnecessary require statements" />
-    <MESSAGE value="Change namespace name" />
-    <MESSAGE value="Cleanup" />
-    <MESSAGE value="Add JoyfulRosaryTest" />
-    <MESSAGE value="Add SorrowfulRosary tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add SorrowfulRosary tests" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/Weekday.php</url>
-          <line>29</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/core/src/rosaries/CurrentRosary.php</url>
-          <line>41</line>
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/core/src/rosaries/Rosary.php</url>
-          <line>156</line>
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/tests/unit/core/src/rosaries/SorrowfulRosaryTest.php</url>
-          <line>26</line>
-          <option name="timeStamp" value="82" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>$this-&gt;rosaryData['mysteries']</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>$this-&gt;rosaryData</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>$this-&gt;rosaryPrayer</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>__FILE__</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>$scriptPath</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>get_include_path()</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>get_included_files()</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>__DIR__</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>__NAMESPACE__</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GloriousRosary.php" />
-    <entry file="file://$PROJECT_DIR$/JoyfulRosary.php" />
-    <entry file="file://$PROJECT_DIR$/LuminousRosary.php" />
-    <entry file="file://$PROJECT_DIR$/MysteryType.php" />
-    <entry file="file://$PROJECT_DIR$/Rosary8.php" />
-    <entry file="file://$PROJECT_DIR$/src/rosary8.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/yaml/Yaml.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/yaml/Parser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="50" column="31" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/rosary8.yaml" />
-    <entry file="file://$PROJECT_DIR$/deprecated/Rosary7.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/JoyfulRosaryTest.php" />
-    <entry file="file://$PROJECT_DIR$/tests/RosaryTest.php" />
-    <entry file="file://$PROJECT_DIR$/tests/Rosary8Test.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/ErrorHandlerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" column="54" lean-forward="true" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/GloriousRosary.yaml" />
-    <entry file="file://$PROJECT_DIR$/tests/GloriousRosaryTest.php" />
-    <entry file="file://$PROJECT_DIR$/../Yam/Yam2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/src/GloriousRosary.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GloriousRosary.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3264">
-          <caret line="192" column="30" selection-start-line="192" selection-start-column="21" selection-end-line="192" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/src/RosaryTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CurrentRosary.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SorrowfulRosary.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Weekday.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GloriousRosary.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="7" lean-forward="true" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JoyfulRosary.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LuminousRosary.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MysteryType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rosary.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/src/Rosary8Test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3060">
-          <caret line="203" column="7" lean-forward="true" selection-start-line="203" selection-start-column="7" selection-end-line="203" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/src/GloriousRosaryTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="e#58#89#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rosary8.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
-          <folding>
-            <element signature="e#59#91#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/rosaries/Rosary8.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/rosaries/GloriousRosary.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-499" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit/core/src/JoyfulRosary.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit/core/src/rosaries/JoyfulRosary.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit/core/src/rosaries/GloriousRosary.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/rosaries/JoyfulRosary.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit/core/src/rosaries/SorrowfulRosary.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/unit/core/src/rosaries/GloriousRosaryTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#53#84#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit/core/src/rosaries/JoyfulRosaryTest.php">
+    <entry file="file://$PROJECT_DIR$/config/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="110" column="30" lean-forward="true" selection-end-line="152" />
-        </state>
+        <state relative-caret-position="-63" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/rosaries/SorrowfulRosary.php">
+    <entry file="file://$PROJECT_DIR$/core/src/rosaries/CurrentRosary.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Logger.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="636" selection-start-line="636" selection-end-line="636" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit/core/src/rosaries/SorrowfulRosary.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="833">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/rosaries/Rosary.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1480">
+        <state relative-caret-position="2465">
           <caret line="145" column="19" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/rosaries/CurrentRosary.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="727" selection-start-line="727" selection-end-line="727" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit/core/src/rosaries/SorrowfulRosaryTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        <state relative-caret-position="399">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
         </state>
       </provider>
     </entry>
