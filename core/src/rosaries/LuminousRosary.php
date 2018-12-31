@@ -60,10 +60,3 @@ class LuminousRosary extends Rosary
         return 'LuminousRosary';
     }
 }
-
-
-$logger = new Logger('rosary_app');
-$luminousRosary = new LuminousRosary($logger);
-$luminousRosary->setRosaryPrayer();
-$a= $luminousRosary->getRosaryPrayer();
-echo $a;
