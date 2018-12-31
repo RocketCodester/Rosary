@@ -12,22 +12,10 @@ use Monolog\Logger;
  */
 abstract class Rosary
 {
-    /**
-     * @var string
-     */
-    private static $gloryBe = "Glory be to the Father, and to the Son, and to the Holy Spirit, as it was in the beginning, is now, and ever shall be, world without end. Amen.\n\n";
-    /**
-     * @var string
-     */
-    private static $hailMary = "Hail Mary, full of grace. The Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death, Amen.\n";
-    /**
-     * @var string
-     */
-    private static $ourFather = "Our Father, Who art in heaven, hallowed be Thy name; Thy kingdom come; Thy will be done on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil. Amen.\n";
-    /**
-     * @var array
-     */
-    private static $mysteryNumbers = ['first', 'second', 'third', 'fourth', 'fifth'];
+    const GLORY_BE = "Glory be to the Father, and to the Son, and to the Holy Spirit, as it was in the beginning, is now, and ever shall be, world without end. Amen.\n\n";
+    const HAIL_MARY = "Hail Mary, full of grace. The Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death, Amen.\n";
+    const OUR_FATHER = "Our Father, Who art in heaven, hallowed be Thy name; Thy kingdom come; Thy will be done on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil. Amen.\n";
+    const MYSTERY_NUMBERS = ['first', 'second', 'third', 'fourth', 'fifth'];
     /**
      * @var string
      */
@@ -147,14 +135,14 @@ abstract class Rosary
     {
         for ($decadeNumber = 0; $decadeNumber<5; $decadeNumber++)
         {
-            $this->rosaryPrayer .= 'The ' . self::$mysteryNumbers[$decadeNumber] . ' ' . $this->mysteryType . ' mystery is the ' .
+            $this->rosaryPrayer .= 'The ' . self::MYSTERY_NUMBERS[$decadeNumber] . ' ' . $this->mysteryType . ' mystery is the ' .
                 $this->mysteries[$decadeNumber] . '. Fruit of the mystery is ' . $this->fruits[$decadeNumber] . ".\n";
-            $this->rosaryPrayer .= self::$ourFather;
+            $this->rosaryPrayer .= self::OUR_FATHER;
             for ($hailMaryNumber = 0; $hailMaryNumber < 10; $hailMaryNumber++)
             {
-                $this->rosaryPrayer .= self::$hailMary;
+                $this->rosaryPrayer .= self::HAIL_MARY;
             }
-            $this->rosaryPrayer .= self::$gloryBe;
+            $this->rosaryPrayer .= self::GLORY_BE;
         }
     }
 
