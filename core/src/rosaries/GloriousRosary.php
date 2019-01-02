@@ -60,3 +60,4 @@ class GloriousRosary extends Rosary
         return 'GloriousRosary';
     }
 }
+

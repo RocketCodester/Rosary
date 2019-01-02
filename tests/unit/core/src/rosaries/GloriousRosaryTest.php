@@ -35,6 +35,8 @@ class GloriousRosaryTest extends TestCase
      */
     public function testConstruct(): void
     {
+//        Util::writeToYAMLFile($this);
+        Util::writeToYAMLFile(__CLASS__);
         $this->assertInstanceOf(GloriousRosary::class, $this->gloriousRosary);
     }
 
